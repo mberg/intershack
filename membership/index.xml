@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Membership on Intershack - Jay Peak Vermont Skiing &amp; Social Group</title>
+    <link>http://localhost:54610/membership/</link>
+    <description>Recent content in Membership on Intershack - Jay Peak Vermont Skiing &amp; Social Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:54610/membership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membership Form</title>
+      <link>http://localhost:54610/membership/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54610/membership/form/</guid>
+      <description>&lt;h2 id=&#34;membership-form&#34;&gt;Membership Form&lt;/h2&gt;&#xA;&lt;p&gt;Please fill out the form below to join or renew your Intershack membership.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>
