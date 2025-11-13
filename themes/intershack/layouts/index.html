@@ -56,7 +56,9 @@
           {{ $ext := lower (path.Ext .Name) }}
           {{ if or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".gif") }}
             <div class="flex-shrink-0">
-              <img src="/images/homepage-gallery/{{ .Name }}" alt="Featured moment" class="h-64 w-80 object-cover rounded-lg shadow-lg">
+              <a href="/images/homepage-gallery/{{ .Name }}" data-fancybox="homepage-gallery" class="cursor-pointer">
+                <img src="/images/homepage-gallery/{{ .Name }}" alt="Featured moment" class="h-64 w-80 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              </a>
             </div>
           {{ end }}
         {{ end }}
