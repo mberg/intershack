@@ -47,6 +47,25 @@
     </div>
   </div>
 
+  <!-- Homepage Gallery -->
+  <div class="mb-12">
+    <h2 class="text-3xl font-bold text-intershack-blue mb-6">Featured Moments</h2>
+    <div class="w-full overflow-x-auto">
+      <div class="flex gap-4 pb-4">
+        {{ $pages := .Site.GetPage "/homepage-gallery" }}
+        {{ if $pages }}
+          {{ range readDir "static/images/homepage-gallery" }}
+            {{ if in (slice "jpg" "jpeg" "png" "gif") (path.Ext .Name | strings.TrimPrefix ".") }}
+              <div class="flex-shrink-0">
+                <img src="/images/homepage-gallery/{{ .Name }}" alt="Featured moment" class="h-64 w-80 object-cover rounded-lg shadow-lg">
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
   <!-- Committee Info -->
   <div class="mb-12">
     <h2 class="text-3xl font-bold text-intershack-blue mb-6">Volunteer Committee</h2>
