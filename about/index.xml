@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>About Intershack on Intershack - Jay Peak Vermont Skiing &amp; Social Group</title>
-    <link>http://localhost:54610/about/</link>
-    <description>Recent content in About Intershack on Intershack - Jay Peak Vermont Skiing &amp; Social Group</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:54610/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Committee Members</title>
-      <link>http://localhost:54610/about/committee/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54610/about/committee/</guid>
-      <description>&lt;p&gt;We are looking for volunteers to help on the Committee. Email us at &lt;a href=&#34;mailto:intershackgroup@gmail.com&#34;&gt;intershackgroup@gmail.com&lt;/a&gt; if you&amp;rsquo;re interested in contributing to our community!&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-committee&#34;&gt;Current Committee&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;get-involved&#34;&gt;Get Involved&lt;/h2&gt;&#xA;&lt;p&gt;Our committee is a fun group, and the time commitments are reasonable. There are several roles to fill, and we&amp;rsquo;re always looking for new members to help organize events and activities.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Unvarnished History of Intershack</title>
-      <link>http://localhost:54610/about/history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54610/about/history/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:54610/images/50th-group-photo.jpg&#34; alt=&#34;Intershack 50th Anniversary Group Photo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the beginning, there was no Intershack - but there were several ski houses in the Jay Peak area. Many of the house members were from Commonwealth countries-England, Australia, New Zealand, India, etc., and were also members of the Overseas Canadian Club in Montreal.&lt;/p&gt;&#xA;&lt;p&gt;The O.C. Club had been formed early in 1968 by about ten people, of whom Mike Olsen and Jack Wilson were the prime instigators. It was modeled after the club in London where newcomers to England socialized and, similarly, the Montreal Club was a place where recent arrivals to Canada could meet their compatriots and have a good time.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About Intershack on Intershack - Jay Peak Vermont Skiing &amp; Social Group</title><link>https://mberg.github.io/intershack/about/</link><description>Recent content in About Intershack on Intershack - Jay Peak Vermont Skiing &amp; Social Group</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mberg.github.io/intershack/about/index.xml" rel="self" type="application/rss+xml"/><item><title>Committee Members</title><link>https://mberg.github.io/intershack/about/committee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mberg.github.io/intershack/about/committee/</guid><description>&lt;p>We are looking for volunteers to help on the Committee. Email us at &lt;a href="mailto:intershackgroup@gmail.com">intershackgroup@gmail.com&lt;/a> if you&amp;rsquo;re interested in contributing to our community!&lt;/p>
+&lt;h2 id="current-committee">Current Committee&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="get-involved">Get Involved&lt;/h2>
+&lt;p>Our committee is a fun group, and the time commitments are reasonable. There are several roles to fill, and we&amp;rsquo;re always looking for new members to help organize events and activities.&lt;/p></description></item><item><title>The Unvarnished History of Intershack</title><link>https://mberg.github.io/intershack/about/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mberg.github.io/intershack/about/history/</guid><description>&lt;p>&lt;img src="https://mberg.github.io/intershack/images/50th-group-photo.jpg" alt="Intershack 50th Anniversary Group Photo">&lt;/p>
+&lt;p>In the beginning, there was no Intershack - but there were several ski houses in the Jay Peak area. Many of the house members were from Commonwealth countries-England, Australia, New Zealand, India, etc., and were also members of the Overseas Canadian Club in Montreal.&lt;/p>
+&lt;p>The O.C. Club had been formed early in 1968 by about ten people, of whom Mike Olsen and Jack Wilson were the prime instigators. It was modeled after the club in London where newcomers to England socialized and, similarly, the Montreal Club was a place where recent arrivals to Canada could meet their compatriots and have a good time.&lt;/p></description></item></channel></rss>
