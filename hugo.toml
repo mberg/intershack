@@ -7,7 +7,7 @@ theme = 'intershack'
 enableGitInfo = false
 
 [params]
-  description = "Montreal-based Jay Peak skiing, golf and social group celebrating over 56 years of mountain community"
+  description = "Jay Peak recreation and social group celebrating over 56 years of mountain community"
   keywords = "Jay Peak, skiing group, North Troy, Jay, Montgomery, Vermont, Montreal, Montrealers, ski club"
   author = "Intershack"
   images = ["/images/jay-peak-hero.jpg"]
