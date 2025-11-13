@@ -1,7 +1,10 @@
 ---
 title: "The Unvarnished History of Intershack"
 description: "The unvarnished history of Intershack - over 56 years of mountain community"
+weight: 2
 ---
+
+![Intershack 50th Anniversary Group Photo](/images/50th-group-photo.jpg)
 
 In the beginning, there was no Intershack - but there were several ski houses in the Jay Peak area. Many of the house members were from Commonwealth countries-England, Australia, New Zealand, India, etc., and were also members of the Overseas Canadian Club in Montreal.
 
