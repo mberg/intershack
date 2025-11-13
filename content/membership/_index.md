@@ -32,13 +32,14 @@ Join our community of skiing and golf enthusiasts! Intershack membership provide
 **Annual Membership Fee**: $50 USD or CDN
 
 ### Registration Process
-1. **Contact Us**: Email [intershackgroup@gmail.com](mailto:intershackgroup@gmail.com) for membership information
-2. **Complete Application**: Download and complete the membership form
-3. **Submit Payment**: Mail your $50 check to:
+1. **Complete the Membership Form**: [Click here to fill out the online membership form](/membership/form/)
+2. **Submit Payment**: Mail your $50 check to:
 
-   **Intershack**  
-   P.O. Box 493  
+   **Intershack**
+   P.O. Box 493
    Montgomery Center, VT 05471
+
+3. **Questions?**: Email [intershackgroup@gmail.com](mailto:intershackgroup@gmail.com) for assistance
 
 ### Membership Year
 Our membership year runs from November to November, coinciding with the ski season.
