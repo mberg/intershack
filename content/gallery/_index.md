@@ -6,6 +6,16 @@ description: "Photo gallery from Intershack events and activities"
 <div class="gallery-index grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
 
 <div class="gallery-card">
+  <a href="/gallery/50th-anniversary/" class="block overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
+    <img src="/images/gallery/50th-anniversary/Intershack 50th Group Photo.jpg" alt="50th Anniversary" class="w-full h-48 object-cover">
+    <div class="p-4">
+      <h3 class="text-lg font-semibold text-intershack-dark" style="text-decoration: none;">50th Anniversary</h3>
+      <p class="text-gray-600 text-sm">5 photos</p>
+    </div>
+  </a>
+</div>
+
+<div class="gallery-card">
   <a href="/gallery/st-pats/" class="block overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow">
     <img src="/images/gallery/st-pats/01.jpg" alt="St. Patrick's Day Party" class="w-full h-48 object-cover">
     <div class="p-4">
