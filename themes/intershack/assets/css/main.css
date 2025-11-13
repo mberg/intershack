@@ -55,7 +55,11 @@
 
   /* Event cards */
   .event-card {
-    @apply card hover:border-intershack-terracotta transition-all duration-300;
+    @apply bg-white rounded border-2 border-intershack-sage shadow-md overflow-hidden hover:shadow-lg hover:border-intershack-terracotta transition-all duration-300;
+  }
+
+  .event-card .card-body {
+    @apply p-6 flex-1;
   }
 
   /* News items */

@@ -5,7 +5,7 @@
     {{ $parent := .Parent }}
     {{ if and $parent (ne $parent.Type "home") (ne $parent.Type "") (eq $parent.Title "Gallery") }}
     <nav class="mb-8" aria-label="breadcrumb">
-      <ol class="flex items-center gap-8">
+      <ol class="flex items-center gap-4">
         <li><a href="{{ $parent.RelPermalink }}" class="text-base text-intershack-blue hover:underline">{{ $parent.Title }}</a></li>
         <li class="text-gray-400">/</li>
         <li class="text-base text-gray-800">{{ .Title }}</li>

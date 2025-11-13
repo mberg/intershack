@@ -54,19 +54,6 @@ enableGitInfo = false
     name = "Events"
     url = "/events/"
     weight = 3
-    hasChildren = true
-    
-  [[menu.main]]
-    parent = "Events"
-    name = "Golf"
-    url = "/events/golf/"
-    weight = 1
-    
-  [[menu.main]]
-    parent = "Events"
-    name = "Social"
-    url = "/events/social/"
-    weight = 3
     
   [[menu.main]]
     name = "Membership"

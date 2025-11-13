@@ -1,6 +1,7 @@
 ---
 title: "Committee Members"
 description: "Meet the volunteer committee members who organize Intershack activities and events"
+weight: 1
 ---
 
 We are looking for volunteers to help on the Committee. Email us at [intershackgroup@gmail.com](mailto:intershackgroup@gmail.com) if you're interested in contributing to our community!
