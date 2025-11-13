@@ -85,7 +85,15 @@
   }
 
   .gallery-card {
-    @apply bg-white rounded border-2 border-intershack-sage shadow-md hover:shadow-lg hover:border-intershack-terracotta transition-all duration-300 overflow-hidden;
+    @apply rounded border-2 border-intershack-sage shadow-md hover:shadow-lg hover:border-intershack-terracotta transition-all duration-300 overflow-hidden;
+  }
+
+  .gallery-card a {
+    @apply no-underline;
+  }
+
+  .gallery-card h3 {
+    @apply no-underline;
   }
 
   /* Prose styles handled by @tailwindcss/typography plugin */
