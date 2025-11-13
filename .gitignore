@@ -1,0 +1,20 @@
+# Hugo build output
+public/
+resources/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Environment
+.env
+.env.local
