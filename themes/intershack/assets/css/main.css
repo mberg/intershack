@@ -131,19 +131,15 @@
   }
 
   /* Announcement styles */
-  .prose h2 {
-    @apply bg-white rounded-lg shadow-lg p-8 mb-8 text-2xl font-semibold text-intershack-dark;
-  }
-
-  .prose h2 + p {
-    @apply bg-white rounded-lg shadow-lg p-8 mb-8;
-  }
-
-  .prose h2 + p + p {
-    @apply bg-white rounded-lg shadow-lg p-8 mb-8;
-  }
-
   .prose hr {
     @apply hidden;
+  }
+
+  .prose h2 {
+    @apply text-xl font-semibold text-intershack-dark mb-4 mt-6;
+  }
+
+  .prose h2:first-child {
+    @apply mt-0;
   }
 }
