@@ -17,13 +17,7 @@ We look forward to seeing you at this event and future events throughout the sea
 
 ## Renew Your Membership for 2025-26
 
-If you have NOT yet renewed your Intershack membership for 2025-26, here are the details:
-
-We are using the link on the Intershack website to either renew your membership or create a new one. If you are unable to find the link on the homepage, the direct link to the membership form is:
-
-**[http://www.intershack.com/Public/Membership/Membership_Home.aspx](http://www.intershack.com/Public/Membership/Membership_Home.aspx)**
-
-Note that if you registered online last year and your personal information has not changed, the online form will take you, after the first three questions, directly to the payment page. If you are a new member or if your information has changed, you will need to complete the online form from beginning to end. In all cases, once you successfully click on "Submit", there will be a message on the final page that reads, "Thank you. Your response has been received and recorded."
+If you have NOT yet renewed your Intershack membership for 2025-26 please click on the [Membership](/membership/) page and follow the instructions. 
 
 ---
 
