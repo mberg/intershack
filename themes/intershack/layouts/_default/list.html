@@ -26,8 +26,8 @@
       {{ .Content }}
     </article>
 
-    <!-- Child Pages - Hidden for Gallery -->
-    {{ if and .Pages (ne .Title "Gallery") }}
+    <!-- Child Pages - Hidden for Gallery and Membership -->
+    {{ if and .Pages (ne .Title "Gallery") (ne .Title "Membership") }}
       <div class="mt-12">
         {{ range .Pages }}
           <div class="mb-8 pb-8 border-b border-gray-200">
