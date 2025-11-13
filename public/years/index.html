@@ -25,9 +25,12 @@
     <link rel="stylesheet" href="/css/style.css">
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 
 
 
@@ -50,19 +53,13 @@
 <body class="bg-gray-50">
   <header>
     
-<nav class="bg-white shadow-lg sticky top-0 z-50">
+<nav class="bg-white border-b-4 border-intershack-sage sticky top-0 z-50" style="background-color: #F5F1EB;">
   <div class="container mx-auto px-4">
     <div class="flex justify-between items-center py-4">
       
       <div class="flex items-center">
-        <a href="/" class="flex items-center space-x-3">
-          <div class="w-12 h-12 bg-intershack-blue rounded-full flex items-center justify-center">
-            <span class="text-white font-bold text-xl">IS</span>
-          </div>
-          <div>
-            <h1 class="text-xl font-bold text-intershack-blue">Intershack</h1>
-            <p class="text-xs text-gray-600">Jay Peak Vermont</p>
-          </div>
+        <a href="/" class="flex items-center space-x-2">
+          <img src="/images/intershack-logo.svg" alt="Intershack" class="h-14 w-auto">
         </a>
       </div>
 
@@ -103,9 +100,6 @@
             <div class="py-2">
                 <a href="/events/golf/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
                   Golf
-                </a>
-                <a href="/events/skiing/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
-                  Skiing
                 </a>
                 <a href="/events/social/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
                   Social
@@ -149,7 +143,7 @@
       </div>
 
       
-      <button id="mobile-menu-button" class="md:hidden flex items-center text-gray-700 hover:text-intershack-blue">
+      <button id="mobile-menu-button" class="md:hidden flex items-center text-intershack-dark hover:text-intershack-green">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
@@ -185,9 +179,6 @@
             <div class="ml-4 mt-2 space-y-1">
                 <a href="/events/golf/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
                   Golf
-                </a>
-                <a href="/events/skiing/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
-                  Skiing
                 </a>
                 <a href="/events/social/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
                   Social
@@ -233,9 +224,27 @@
   </header>
   <main class="min-h-screen">
     
-  <h1>Years</h1>
-  
-  
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    
+    
+    
+
+    
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-intershack-blue mb-4">Years</h1>
+      
+    </header>
+
+    
+    <article class="prose prose-lg max-w-none">
+      
+    </article>
+
+    
+    
+  </div>
+</div>
 
   </main>
   <footer>
@@ -301,7 +310,7 @@
 
     <div class="border-t border-intershack-light mt-8 pt-8 text-center text-sm text-gray-300">
       <p>&copy; 2025 Intershack. All rights reserved. | A Jay Peak Area Sports & Social Group</p>
-      <p class="mt-2">Website updated: Thursday, November 13, 2025 12:56:14 PM</p>
+      <p class="mt-2">Website updated: Thursday, November 13, 2025 1:37:41 PM</p>
     </div>
   </div>
 </footer>
@@ -314,5 +323,18 @@
 </script>
 
   </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('[data-fancybox]').fancybox({
+        buttons: ['thumbs', 'close'],
+        loop: false,
+        autoSize: true,
+        arrows: true
+      });
+    });
+  </script>
 </body>
 </html>

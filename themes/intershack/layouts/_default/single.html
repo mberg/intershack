@@ -1,6 +1,18 @@
 {{ define "main" }}
 <div class="container mx-auto px-4 py-8">
   <div class="max-w-4xl mx-auto">
+    <!-- Breadcrumbs -->
+    {{ $parent := .Parent }}
+    {{ if and $parent (ne $parent.Type "home") (ne $parent.Type "") }}
+    <nav class="mb-8" aria-label="breadcrumb">
+      <ol class="flex items-center gap-8">
+        <li><a href="{{ $parent.RelPermalink }}" class="text-base text-intershack-blue hover:underline">{{ $parent.Title }}</a></li>
+        <li class="text-gray-400">/</li>
+        <li class="text-base text-gray-800">{{ .Title }}</li>
+      </ol>
+    </nav>
+    {{ end }}
+
     <!-- Page Header -->
     <header class="mb-8">
       <h1 class="text-4xl font-bold text-intershack-blue mb-4">{{ .Title }}</h1>

@@ -9,15 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'intershack-blue': '#003366',
-        'intershack-orange': '#F3A204',
-        'intershack-light': '#FFE7C8',
-        'intershack-burgundy': '#a40b3a',
-        'jay-peak-blue': '#0066CC',
+        'intershack-green': '#5B8C3A',
+        'intershack-sage': '#7A9B6F',
+        'intershack-cream': '#F5F1EB',
+        'intershack-terracotta': '#C85A2E',
+        'intershack-ochre': '#D4A574',
+        'intershack-dark': '#3D4E2F',
       },
       fontFamily: {
-        'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
-        'display': ['Open Sans', 'ui-sans-serif'],
+        'sans': ['Lora', 'Georgia', 'serif'],
+        'display': ['Playfair Display', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'hero-pattern': "url('/images/jay-peak-hero.jpg')",

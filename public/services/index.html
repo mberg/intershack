@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en-us" dir="ltr" style="background-color: #F5F1EB;">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +25,12 @@
     <link rel="stylesheet" href="/css/style.css">
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 
 
 
@@ -47,22 +50,16 @@
 
 
 </head>
-<body class="bg-gray-50">
+<body style="background-color: #F5F1EB; color: #3D4E2F; font-family: 'Lora', Georgia, serif;">
   <header>
     
-<nav class="bg-white shadow-lg sticky top-0 z-50">
+<nav class="sticky top-0 z-50" style="background-color: #F5F1EB; border-bottom: 4px solid #7A9B6F;">
   <div class="container mx-auto px-4">
     <div class="flex justify-between items-center py-4">
       
       <div class="flex items-center">
-        <a href="/" class="flex items-center space-x-3">
-          <div class="w-12 h-12 bg-intershack-blue rounded-full flex items-center justify-center">
-            <span class="text-white font-bold text-xl">IS</span>
-          </div>
-          <div>
-            <h1 class="text-xl font-bold text-intershack-blue">Intershack</h1>
-            <p class="text-xs text-gray-600">Jay Peak Vermont</p>
-          </div>
+        <a href="/" class="flex items-center space-x-2">
+          <img src="/images/intershack-logo.png" alt="Intershack" style="height: 80px; width: auto;">
         </a>
       </div>
 
@@ -103,9 +100,6 @@
             <div class="py-2">
                 <a href="/events/golf/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
                   Golf
-                </a>
-                <a href="/events/skiing/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
-                  Skiing
                 </a>
                 <a href="/events/social/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
                   Social
@@ -149,7 +143,7 @@
       </div>
 
       
-      <button id="mobile-menu-button" class="md:hidden flex items-center text-gray-700 hover:text-intershack-blue">
+      <button id="mobile-menu-button" class="md:hidden flex items-center" style="color: #3D4E2F;">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
@@ -185,9 +179,6 @@
             <div class="ml-4 mt-2 space-y-1">
                 <a href="/events/golf/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
                   Golf
-                </a>
-                <a href="/events/skiing/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
-                  Skiing
                 </a>
                 <a href="/events/social/" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
                   Social
@@ -233,8 +224,23 @@
   </header>
   <main class="min-h-screen">
     
-  <h1>Member Services</h1>
-  <p>As an Intershack member, you have access to exclusive discounts and services that provide real value throughout the year.</p>
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    
+    
+    
+
+    
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-intershack-blue mb-4">Member Services</h1>
+      
+        <p class="text-xl text-gray-600">Exclusive discounts and services for Intershack members</p>
+      
+    </header>
+
+    
+    <article class="prose prose-lg max-w-none">
+      <p>As an Intershack member, you have access to exclusive discounts and services that provide real value throughout the year.</p>
 <h2 id="services-available">Services Available</h2>
 <h3 id="fred"><a href="/services/freds-energy/">Fred&rsquo;s Energy Propane Program</a></h3>
 <p>Exclusive discounts on home heating propane through our partnership with Fred&rsquo;s Energy.</p>
@@ -243,15 +249,23 @@
 <hr>
 <p>These member benefits help offset your annual membership fee while supporting local businesses that support our community.</p>
 
-  
-    <h2><a href="/services/freds-energy/">Fred&#39;s Energy Group Buying Program</a></h2>
-    <h2 id="contact-information">Contact Information</h2>
+    </article>
+
+    
+    
+      <div class="mt-12">
+        
+          <div class="mb-8 pb-8 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-intershack-blue mb-2"><a href="/services/freds-energy/" class="hover:text-intershack-orange transition-colors">Fred&#39;s Energy Group Buying Program</a></h2>
+            <div class="text-gray-700"><h2 id="contact-information">Contact Information</h2>
 <p>Please email <strong>Chuck Jaschke</strong> at <a href="mailto:chuck.jaschke@gmail.com">chuck.jaschke@gmail.com</a> or call Fred&rsquo;s Energy in Derby at <strong>802-766-4949</strong> for further details regarding this programme.</p>
 <h2 id="intershack-propane-representative">Intershack Propane Representative</h2>
-<p><strong>Chuck Jaschke</strong> serves as the Intershack Propane Representative for this program.</p>
-  
-    <h2><a href="/services/discounts/">Merchant Partner Discounts</a></h2>
-    <p>Intershack members have access to special discounts from local businesses and service providers who support our community.</p>
+<p><strong>Chuck Jaschke</strong> serves as the Intershack Propane Representative for this program.</p></div>
+          </div>
+        
+          <div class="mb-8 pb-8 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-intershack-blue mb-2"><a href="/services/discounts/" class="hover:text-intershack-orange transition-colors">Merchant Partner Discounts</a></h2>
+            <div class="text-gray-700"><p>Intershack members have access to special discounts from local businesses and service providers who support our community.</p>
 <h2 id="available-discounts">Available Discounts</h2>
 <p>We maintain partnerships with various local businesses to provide our members with exclusive discounts and special rates.</p>
 <h2 id="how-to-access-discounts">How to Access Discounts</h2>
@@ -263,8 +277,13 @@
 <li>Participating businesses</li>
 </ul>
 <h2 id="supporting-local-business">Supporting Local Business</h2>
-<p>These partnerships benefit both our members and local businesses, creating a network of mutual support in the Jay Peak area and Montreal communities.</p>
-  
+<p>These partnerships benefit both our members and local businesses, creating a network of mutual support in the Jay Peak area and Montreal communities.</p></div>
+          </div>
+        
+      </div>
+    
+  </div>
+</div>
 
   </main>
   <footer>
@@ -330,7 +349,7 @@
 
     <div class="border-t border-intershack-light mt-8 pt-8 text-center text-sm text-gray-300">
       <p>&copy; 2025 Intershack. All rights reserved. | A Jay Peak Area Sports & Social Group</p>
-      <p class="mt-2">Website updated: Thursday, November 13, 2025 12:56:14 PM</p>
+      <p class="mt-2">Website updated: Thursday, November 13, 2025 1:40:05 PM</p>
     </div>
   </div>
 </footer>
@@ -343,5 +362,18 @@
 </script>
 
   </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('[data-fancybox]').fancybox({
+        buttons: ['thumbs', 'close'],
+        loop: false,
+        autoSize: true,
+        arrows: true
+      });
+    });
+  </script>
 </body>
 </html>

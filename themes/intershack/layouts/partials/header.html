@@ -1,17 +1,11 @@
 <!-- Navigation Header -->
-<nav class="bg-white shadow-lg sticky top-0 z-50">
+<nav class="sticky top-0 z-50" style="background-color: #F5F1EB; border-bottom: 4px solid #7A9B6F;">
   <div class="container mx-auto px-4">
     <div class="flex justify-between items-center py-4">
       <!-- Logo/Title -->
       <div class="flex items-center">
-        <a href="/" class="flex items-center space-x-3">
-          <div class="w-12 h-12 bg-intershack-blue rounded-full flex items-center justify-center">
-            <span class="text-white font-bold text-xl">IS</span>
-          </div>
-          <div>
-            <h1 class="text-xl font-bold text-intershack-blue">Intershack</h1>
-            <p class="text-xs text-gray-600">Jay Peak Vermont</p>
-          </div>
+        <a href="/" class="flex items-center space-x-2">
+          <img src="/images/intershack-logo.png" alt="Intershack" style="height: 80px; width: auto;">
         </a>
       </div>
 
@@ -21,7 +15,7 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <button id="mobile-menu-button" class="md:hidden flex items-center text-gray-700 hover:text-intershack-blue">
+      <button id="mobile-menu-button" class="md:hidden flex items-center" style="color: #3D4E2F;">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
@@ -37,16 +31,15 @@
 
 <!-- Hero Banner for Homepage -->
 {{ if .IsHome }}
-<div class="relative bg-gradient-to-br from-intershack-blue to-jay-peak-blue h-96">
-  <div class="absolute inset-0 bg-black opacity-20"></div>
+<div class="relative h-80" style="background-color: #5B8C3A;">
   <div class="relative container mx-auto px-4 h-full flex items-center">
     <div class="text-white">
-      <h2 class="text-5xl font-bold mb-4">Welcome to Intershack</h2>
+      <h2 class="text-5xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">Welcome to Intershack</h2>
       <p class="text-xl mb-6">Montreal-based Jay Peak skiing, golf and social group</p>
       <p class="text-lg mb-8">Celebrating over 56 years of mountain community</p>
       <div class="flex space-x-4">
-        <a href="/membership/" class="btn-primary bg-white text-intershack-blue hover:bg-gray-100">Join Us</a>
-        <a href="/events/" class="btn-secondary">View Events</a>
+        <a href="/membership/" class="px-6 py-3 rounded font-medium" style="background-color: white; color: #5B8C3A; transition: all 0.2s;">Join Us</a>
+        <a href="/events/" class="px-6 py-3 rounded font-medium text-white" style="background-color: #C85A2E; transition: all 0.2s;">View Events</a>
       </div>
     </div>
   </div>

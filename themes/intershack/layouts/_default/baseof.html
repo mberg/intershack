@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" style="background-color: #F5F1EB;">
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="bg-gray-50">
+<body style="background-color: #F5F1EB; color: #3D4E2F; font-family: 'Lora', Georgia, serif;">
   <header>
     {{ partial "header.html" . }}
   </header>
@@ -13,5 +13,18 @@
   <footer>
     {{ partial "footer.html" . }}
   </footer>
+  <!-- Fancybox Gallery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('[data-fancybox]').fancybox({
+        buttons: ['thumbs', 'close'],
+        loop: false,
+        autoSize: true,
+        arrows: true
+      });
+    });
+  </script>
 </body>
 </html>
