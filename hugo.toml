@@ -59,7 +59,14 @@ enableGitInfo = false
     name = "Membership"
     url = "/membership/"
     weight = 4
-    
+    hasChildren = true
+
+  [[menu.main]]
+    parent = "Membership"
+    name = "Membership Form"
+    url = "/membership/form/"
+    weight = 1
+
   [[menu.main]]
     name = "Member Services"
     url = "/services/"
