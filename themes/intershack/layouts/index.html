@@ -12,6 +12,25 @@
     {{ end }}
   </div>
 
+  <!-- Homepage Gallery -->
+  <div class="mb-12">
+    <h2 class="text-3xl font-bold text-intershack-blue mb-6">Featured Moments</h2>
+    <div class="w-full overflow-x-auto">
+      <div class="flex gap-4 pb-4">
+        {{ range readDir "static/images/homepage-gallery" }}
+          {{ $ext := lower (path.Ext .Name) }}
+          {{ if or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".gif") }}
+            <div class="flex-shrink-0">
+              <a href="/images/homepage-gallery/{{ .Name }}" data-fancybox="homepage-gallery" class="cursor-pointer">
+                <img src="/images/homepage-gallery/{{ .Name }}" alt="Featured moment" class="h-64 w-80 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
   <!-- Upcoming Events -->
   <div class="mb-12">
     <h2 class="text-3xl font-bold text-intershack-blue mb-6">Upcoming Events</h2>
@@ -44,25 +63,6 @@
           </div>
         </div>
       {{ end }}
-    </div>
-  </div>
-
-  <!-- Homepage Gallery -->
-  <div class="mb-12">
-    <h2 class="text-3xl font-bold text-intershack-blue mb-6">Featured Moments</h2>
-    <div class="w-full overflow-x-auto">
-      <div class="flex gap-4 pb-4">
-        {{ range readDir "static/images/homepage-gallery" }}
-          {{ $ext := lower (path.Ext .Name) }}
-          {{ if or (eq $ext ".jpg") (eq $ext ".jpeg") (eq $ext ".png") (eq $ext ".gif") }}
-            <div class="flex-shrink-0">
-              <a href="/images/homepage-gallery/{{ .Name }}" data-fancybox="homepage-gallery" class="cursor-pointer">
-                <img src="/images/homepage-gallery/{{ .Name }}" alt="Featured moment" class="h-64 w-80 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              </a>
-            </div>
-          {{ end }}
-        {{ end }}
-      </div>
     </div>
   </div>
 
