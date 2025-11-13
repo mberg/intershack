@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build:production",
   "outputDirectory": "public",
-  "installCommand": "npm install"
+  "installCommand": "npm install && curl -L https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-64bit.tar.gz | tar -xz -C /usr/local/bin"
 }
