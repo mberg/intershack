@@ -1,0 +1,31 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  {{- range . }}
+    {{- if not .Parent }}
+      {{- $hasChildren := .HasChildren }}
+      <div class="relative group">
+        <a href="{{ .URL }}" class="nav-link {{ if or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }}nav-link-active{{ end }}">
+          {{ .Name }}
+          {{- if $hasChildren }}
+            <svg class="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          {{- end }}
+        </a>
+        {{- if $hasChildren }}
+          <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div class="py-2">
+              {{- range .Children }}
+                <a href="{{ .URL }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-intershack-light hover:text-intershack-blue">
+                  {{ .Name }}
+                </a>
+              {{- end }}
+            </div>
+          </div>
+        {{- end }}
+      </div>
+    {{- end }}
+  {{- end }}
+{{- end }}

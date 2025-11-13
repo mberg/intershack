@@ -1,0 +1,752 @@
+
+<!doctype html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1390129-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-1390129-2');
+</script>
+
+<title>Intershack</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="keywords" content="Jay Peak, skiing group, North Troy, Jay, Montgomery, Vermont, Montreal, Montrealers">
+<META name="description" content="Montreal based Jay Peak skiing, golf and social group.">
+<META name="robots" content="home, follow">
+<LINK rel="stylesheet" type="text/css" href="CSS/Intershack.css">
+<LINK rel="stylesheet" type="text/css" href="CSS/Menu1.css">
+<LINK REL="SHORTCUT ICON" HREF="Icon.ico">
+
+<script type="text/javascript" src="jquery-2.0.0.min.js"></script>
+<script type="text/javascript" >
+    (function ($) {
+        $.fn.fixedMenu = function () {
+            return this.each(function () {
+                var menu = $(this);
+                //close dropdown when clicked anywhere else on the document
+                $("html").click(function () {
+                    menu.find('.active').removeClass('active');
+                });
+                menu.find('ul li > a').click(function (event) {
+                    //check whether the particular link has a dropdown
+                    if (!$(this).parent().hasClass('single-link') && !$(this).parent().hasClass('current')) {
+                        //hiding drop down menu when it is clicked again
+                        if ($(this).parent().hasClass('active')) {
+                            $(this).parent().removeClass('active');
+                        } else {
+                            //displaying the drop down menu
+                            event.stopPropagation();
+
+                            $(this).parent().parent().find('.active').removeClass('active');
+                            $(this).parent().addClass('active');
+                        }
+                    } else {
+                        //hiding the drop down menu when some other link is clicked
+                        $(this).parent().parent().find('.active').removeClass('active');
+                    }
+                })
+            });
+        }
+    })(jQuery);
+</script>
+<script>
+    $('document').ready(function () {
+        $('.menu').fixedMenu();
+    });
+</script>
+</head>
+<div class="top1"></div>
+<div align="center" width="1000px"><div align="center" width="1000px">
+<table width="1000" border="0" cellspacing="0" cellpadding="1" class="backgroundactive">
+<tr>
+ <td width="190" class="p" align="left"></td>
+ <td width="700"align="left">
+ <div class="menu">
+ <ul>
+   <li><a href="default.aspx.html">Home</a></li>
+   <li><a href="default.aspx.html#">About<span class="arrow"></span></a>
+   <ul>
+        <li><a href="Public/History/History_Home.aspx.html">History</a></li>
+        <!--<li><a href="/Public/Executive/Executive_Home.aspx">Executive</a></li>
+        <li><a href="/Public/Executive/Past_Presidents_Home.aspx">Past Presidents</a></li> -->
+   </ul>
+   </li>
+   <li><a href="default.aspx.html#">Events<span class="arrow"></span></a>
+   <ul>
+        <!--<li><a href="/Public/Events/Events_Home.aspx">Event Calendar</a></li>-->
+        <li><a href="Public/Golf/Golf_Home.aspx.html">Golf</a></li>
+   </ul>
+   </li>
+   <!--<li><a href="#">Photos<span class="arrow"></span></a>
+   <ul>
+        <li><a href="/Public/Photos/Photos_Golf_Home.aspx">Blasts from the past - Golf</a></li>
+        <li><a href="#">Blasts from the past - Skiing</a></li>
+   </ul>-->
+   </li>
+   <li><a href="Public/Membership/Membership_Home.aspx.html">Membership</a>
+   <!--  <li><a href="#">Membership<span class="arrow"></span></a>
+   <ul> -->
+   <!--     <li><a href="/Public/Online/Membership/NMembers_Online_1.aspx">Join up online</a></li> OLD -->
+   <!--         <li><a href="/Public/Membership/Membership_Home.aspx">Download form and mail</a></li>  
+   </ul> -->
+   </li>
+   <li><a href="default.aspx.html#">Member Services<span class="arrow"></span></a>
+   <ul>
+        <li>
+        <a href="Public/Freds/Freds_Home.aspx.html">Freds Energy Propane</a>
+        </li>
+        <li>
+        <a href="Public/Discounts/Discounts_Home.aspx.html">Merchant Partners - Discounts</a>
+        </li>
+   </ul>
+   </li>
+   <li><a href="default.aspx.html#">Links<span class="arrow"></span></a>
+   <ul>
+   <li><a href="http://www.accuweather.com/en/us/north-troy-vt/05859/weather-forecast/341216">Jay Peak Area Weather</a></li>
+   <li><a href="http://www.jaypeakresort.com/skiing-riding/the-mountain/conditions-weather">Jay Peak Ski Conditions</a></li>
+        <li>
+        <a href="Public/Links/Links_Home.aspx.html">Other Links</a>
+        </li>
+   </ul>
+   </li>
+   <li><a href="default.aspx.html#">Logins<span class="arrow"></span></a>
+   <ul>
+        <li><a href="Logins/Login_Admins.aspx.html">Admin Login</a></li>
+   </ul>
+   </li>
+</div>
+<td width="100" align="left"></td>
+</tr>
+</table>
+<div id="css-table">
+<div class="col1">
+<span class="h18dburg">Volunteer Committee Members&nbsp;&nbsp;</span><br />
+
+<table border="0" cellpadding="2" cellspacing="1" width="200">
+
+<tr>
+  <td class="pblue" valign="top">&#9658;</td>
+ <td class="pblue">We are looking for volunteers to help on the Committee.</td>
+</tr>
+<tr>
+  <td class="pblue" valign="top">&#9658;</td>
+ <td class="pblue">email us at intershackgroup@gmail.com </td>
+</tr>
+</table>
+<a href="Library/Photos/2023-2024/Intershack_Intro_Card/Intershack_Card.png"><img border="1" src="Library/Photos/2023-2024/Intershack_Intro_Card/Intershack_Card.png" WIDTH=210" HEIGHT="150">
+<br /><br /> 
+
+
+<img border="1" src="Library/Photos/Laurie_Holdron.jpg" WIDTH="125" HEIGHT="114"><br> 
+<span class="p11blue">Laurie Holdron<br>Social Events</span> 
+<br><br><img border="1" src="Library/Photos/Chuck%20Jaschke.jpg" WIDTH="122" HEIGHT="148"><br>
+<span class="p11blue">Chuck Jaschke<br>Treasurer</span>
+<br><br><img border="1" src="Library/Photos/Anne%20Ireland.jpeg" WIDTH="115" HEIGHT="162"><br>
+<span class="p11blue">Anne Ireland<br>Communications</span>
+
+<br><br><img border="1" src="Library/Photos/Bill_Wienand_Pres.jpg" WIDTH="125" HEIGHT="134"><br>
+<span class="p11blue">Bill Wienand<br>Propane Rep</span> 
+
+<br><br><img border="1" src="Library/Photos/Ginny%20Malcolm.jpeg" WIDTH="115" HEIGHT="162"><br>
+<span class="p11blue">Ginny Malcolm<br>Membership</span>
+
+
+<br><br><img border="1" src="Library/Photos/Mark_Claire_Draper_Headshot.jpg" WIDTH="111" HEIGHT="106"><br>
+<span class="p11blue">Mark and Claire Draper<br>Winter Downhill Events Organizers</span>
+
+</div>
+
+
+<div class="col2a">
+<br />
+
+<span class="h24dblue">Annual Labor Day Golf Tournament and Dinner - Jay Peak Sunday, August 31 starting at 11am</span><br><br>
+<span class="p">
+PLEASE respond by Friday August 15 if you are participating in golf, golf and dinner,
+or just dinner. <br><br>
+RSVP to Chuck Jaschke:@ chuckjaschke@gmail.com <br><br>
+Chuck will organize golf groups and tee times. Please let Chuck know if you have
+a 4some and the names of others to include in your group. 
+$69 per person (including cart). Canadian Cash taken at Par. Pay at the pro shop
+directly PRIZES will be awarded! <br><br>
+Cocktails/Dinner – will be in the Clubhouse Grill and partly subsidized for Intershack
+members. There will be 3 choices of menu. (details to follow)
+Please indicate if you have children who want to order off a children’s menu.
+This event is open to all Intershack members, past members and guests. <br><br>
+We look forward to seeing you there!<br><br>
+
+
+The Intershack Crew 
+</span><br><br><br>
+
+<span class="h24dblue">Jay Peak Tail Gate Party Saturday April 26, 2025</span><br><br>
+<span class="p">
+The Intershack tradition continued! <br><br>
+The weather was very wintery but thanks to Claire and Mark, our tradition of participating in the Jay Peak end of season tailgate event lives on! <br><br>
+It was a smaller turnout overall and we appreciated the hardcore Intershackers who participated and enjoyed the BBQ. <br><br>
+Perhaps the sun will shine on us next year!<br><br>
+
+The InterShack Crew 
+</span><br><br><br>
+<a href="Library/Photos/2024-2025/Tailgate/Tailgate_1.jpeg"><img border="1" src="Library/Photos/2024-2025/Tailgate/Tailgate_1.jpeg" WIDTH="180" HEIGHT="240">
+<a href="Library/Photos/2024-2025/Tailgate/Tailgate_2.jpg"><img border="1" src="Library/Photos/2024-2025/Tailgate/Tailgate_2.jpg" WIDTH="180" HEIGHT="210">
+<br><br>
+
+<span class="h24dblue">Intershack West Saint Patrick's Day - March 13, 2025</span><br><br>
+<span class="p">
+Another great St. Patrick's Dinner/Party for those Shackers that have moved to Whistler - Slainte!<br><br>
+
+<a href="Library/Photos/2024-2025/St%20Pats/West%20Iain%20and%20Gang.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/West%20Iain%20and%20Gang.jpg" WIDTH=200" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/West%20Gang%20Dancing.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/West%20Gang%20Dancing.jpg" WIDTH=174" HEIGHT="150">
+</span><br><br><br>
+
+<span class="h24dblue">Saint Patrick's Day Cocktail Party - Saturday March 15, 2025</span><br><br>
+<span class="p">
+The 2025 Intershack St. Patrick’s party, held at the Jay Peak hotel, was filled with lots of fun, lots of green attire, lively conversations, pizza and silly shenanigans.<br><br>
+Elaine Thoms headed up three activities for the crowd- the Green Hat toss, the Irish Quiz and the best dress. Winners were Matt and Micah for the hat toss, John for the Irish Quiz and Chris & Lauri for the best dress.<br><br>
+Thanks to Jay Peak for accommodating our group and thanks to our barman Bryan for his friendly and professional service.</span>!!<br><br>
+<a href="Library/Photos/2024-2025/St%20Pats/Best%20costume%20.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Best%20costume%20.jpg" WIDTH=215" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Bryan%20&amp;%20Lynda.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Bryan%20&amp;%20Lynda.jpg" WIDTH=232" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Chris%20&amp;%20Lauri.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Chris%20&amp;%20Lauri.jpg" WIDTH=162" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Bob%20Peter%20Laurie.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Bob%20Peter%20Laurie.jpg" WIDTH=125" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Donna,%20Bob,%20Peter.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Donna,%20Bob,%20Peter.jpg" WIDTH=157" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Hat%20toss%20winners.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Hat%20toss%20winners.jpg" WIDTH=197" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Jim%20&amp;%20Cynthia.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Jim%20&amp;%20Cynthia.jpg" WIDTH=122" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Laurie%20Elaine%20Ellie.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Laurie%20Elaine%20Ellie.jpg" WIDTH=93" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Mark%20&amp;%20Claire.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Mark%20&amp;%20Claire.jpg" WIDTH=192" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Peter.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Peter.jpg" WIDTH=125" HEIGHT="150">
+<a href="Library/Photos/2024-2025/St%20Pats/Trivia%20Game.jpg"><img border="1" src="Library/Photos/2024-2025/St%20Pats/Trivia%20Game.jpg" WIDTH=243" HEIGHT="150">
+
+</span><br><br>
+
+<br />
+<!--
+<a href="/Library/Photos/2024-2025/St Pats/Intershack Saint Patricks Day Invitation Cocktail March 15 2025.jpg"><img border="1" src="/Library/Photos/2024-2025/St Pats/Intershack Saint Patricks Day Invitation Cocktail March 15 2025.jpg" WIDTH="400" HEIGHT="225">
+(click to enlarge)<br>
+<span class="h24dblue">Saint Patrick's Day Cocktail Party - Saturday March 15, 2025</span><br><br>
+<span class="p">
+We just celebrated Valentine's Day and all things RED ... so now it's on to GREEN!
+<br>
+See the invitation above for details on contests and prizes!
+<br> <br>
+Hope you can join us at our new location for this year- the Haynes Room in the Jay Peak Hotel Conference Center on March 15, 2025 from 3-5PM for Irish cheer!! 
+<br><br>
+PLEASE RSVP to intershackgroup@gmail.com by February 28th if you plan to attend so we can order an appropriate amount of snacks! 
+
+ <br> <br>
+See you there.... in GREEN!! 
+
+</span><br><br><br><br> -->
+
+<span class="h24dblue">Valentine's Day Dinner at the Inn</span><br><br>
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Dinner%20-%20group.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Dinner%20-%20group.jpg" WIDTH="245" HEIGHT="138">
+<a href="Library/Photos/2024-2025/Valentines_Day/2025%20Valentines%20Day.png"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/2025%20Valentines%20Day.png" WIDTH="210" HEIGHT="138">
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Deer.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Deer.jpg" WIDTH="78" HEIGHT="138">
+<br>
+<span class="p">
+
+On February 8 Intershackers experienced a fun <span class="p16blue">Valentine’s Day </span> evening and delicious dinner at The Inn after a snowy and wonderful day at Jay Peak
+<br> – which really does have the most snow in the east, spectacularly this winter.<br><br>
+
+The evening kicked off in The Inn’s unique lounge with warm greetings amongst old and new friends and tasty cocktails and appetizers. 
+Games and raffles were held and lively conversations were heard throughout the evening. <br><br>
+
+The Inn provided an inviting venue with warm hospitality from all its staff.
+
+</span><br><br>
+
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Dinner%20David,Denis,%20Ryan%20Michelle,%20Chlake.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Dinner%20David,Denis,%20Ryan%20Michelle,%20Chlake.jpg" WIDTH="245" HEIGHT="138">
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Elsie,%20Lutz,%20Helen,%20Elaine.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Elsie,%20Lutz,%20Helen,%20Elaine.jpg" WIDTH="245" HEIGHT="138">
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Gary,%20Jane,%20Denis.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Gary,%20Jane,%20Denis.jpg" WIDTH="245 HEIGHT="138">
+<a href="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Peter,%20Crystal,%20Bill.jpg"><img border="1" src="Library/Photos/2024-2025/Valentines_Day/Small%20Photos/Peter,%20Crystal,%20Bill.jpg" WIDTH="245" HEIGHT="138">
+
+<br><br>
+
+<!-- <a href="/Library/Photos/2024-2025/Valentines_Day/2025 Valentines Day.png"><img border="1" src="/Library/Photos/2024-2025/Valentines_Day/2025 Valentines Day.png" WIDTH=210" HEIGHT="138">
+<span class="h24dblue">Valentine's Celebration -  February 8!</span><br><br>
+
+<span class="p">
+<span class="p16blue">Valentine’s Day </span> <span class="p">is approaching! 
+Come join us for an early celebration dinner with Intershack friends and guests. <br>
+Saturday February 8, 2025 at The Inn (Montgomery Center) <br>
+(Dinner includes: appetizer, starter, entrée, and dessert) <br>
+Cocktails @ 6:00 <br>
+Dinner @7:00 <br>
+Cost per person (excluding drinks, tax, and tip): Intershack Member: $45 Guest: $60  <br><br>
+
+Capacity is limited. 
+Please reply ASAP to intershackgroup@gmail.com to confirm your spot. <br>
+If your plans change and you cannot make it after you RSVP – please let us know in advance so we can open up your seat for others. <br><br>
+Looking forward to seeing you! 
+</span><br><br> -->
+
+<span class="h24dblue">Intershack Gives Back (Again)!</span><br><br>
+<span class="p">
+To help make Christmas brighter for less fortunate families in our local communities, Intershack has made donations to two local food banks. 
+The Montgomery Food Pantry and the Jay Area Food Shelf each received a cheque for $1,500. <br><br>
+Not only does your membership fee provide you with opportunities to participate in myriad social activities, and receive discounts for home-heating fuel through Intershack’s preferred rate program with Fred’s Energy, you can be proud of your contributions to those in need.<br><br>
+THANK YOU ALL FOR MAKING THIS POSSIBLE.  <br><br>
+Wishing everyone all the best for 2025! >
+</span><br><br>
+
+<span class="h24dblue">Skating & Pizza Party Friday Dec 27th, 2024</span><br><br>
+
+<span class="p">A wonderful, snowy Christmas week ended with a multi-generational skating and pizza party at the Jay Peak Arena on Friday December 27th. 
+Family, old friends and new friends made for a memorable event with perfect ice for skaters and lots of pizzas and snacks for the hungry<br><br></span>
+
+<a href="Library/Photos/2024-2025/Skating_Party/Bill%20Chuck%20Jim.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Bill%20Chuck%20Jim.jpeg" WIDTH=275" HEIGHT="160">
+<a href="Library/Photos/2024-2025/Skating_Party/Chuck,%20Lynda,%20Bill.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Chuck,%20Lynda,%20Bill.jpeg" WIDTH=275" HEIGHT="178"><br>
+<a href="Library/Photos/2024-2025/Skating_Party/Forest,%20Bob%20Donna.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Forest,%20Bob%20Donna.jpeg" WIDTH=275" HEIGHT="163">
+<a href="Library/Photos/2024-2025/Skating_Party/Leigh,%20Cyrstal,%20Kurt,%20Kim.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Leigh,%20Cyrstal,%20Kurt,%20Kim.jpeg" WIDTH=275" HEIGHT="175"><br>
+<a href="Library/Photos/2024-2025/Skating_Party/Jo%20Niki%20Harris.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Jo%20Niki%20Harris.jpeg" WIDTH=192" HEIGHT="275">
+<a href="Library/Photos/2024-2025/Skating_Party/Matt.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Matt.jpeg" WIDTH=171" HEIGHT="275"><br>
+<a href="Library/Photos/2024-2025/Skating_Party/Pizza%20Pic.jpg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Pizza%20Pic.jpg" WIDTH=275" HEIGHT="206">
+<a href="Library/Photos/2024-2025/Skating_Party/Skating.jpeg"><img border="1" src="Library/Photos/2024-2025/Skating_Party/Skating.jpeg" WIDTH=275" HEIGHT="160"><br>
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+
+
+<!--<span class="h24dblue">Skating & Pizza Party <br>
+Jay Peak Ice Haus on Friday Dec 27th from 4:00 to 6:00</span><br><br>
+
+<span class="p">Join us for a Skating and Pizza party at the Jay Peak Ice Haus on Friday Dec 27th from 4:00 to 6:00. <br><br>
+
+Skating is from 4:00-5:30. Pizza will be served following the skating.
+ Bring your own skates or rental skates are available if you're in need.<br><br></span>
+
+<span class="pblue">If you plan to attend, RSVP to intershackgroup@gmail.com by December 12 and include the number of folks in your party. 
+</span><br><br>
+
+<span class="p">If your plans should later change, please let us know - as cancelling your spot will make it available for others and we need to plan for the appropriate amount of food. </span><br><br> -->
+
+<span class="h24dblue"> Welcome Cocktail Party - Sat November 30, 2024<br></span><br>
+<!--<span class="p">
+This invitation is going out to all of you who participated last year as well as our members new for the 2024-2025 season!
+Please join us for our <span class="pblue">Annual Welcome Cocktail Party</span> where you can reconnect with old friends and make new ones, too! <br><br>
+Date: Saturday, November 30, 2024  <br>
+Time: 4:00 - 6:00 PM <br>
+Location: The TRAM BAR, Jay Peak Resort <br><br>
+Please RSVP to laurie.holdron@gmail.com by November 14, 2024!<br><br>
+
+Note - if you have not yet renewed your membership, it's not too late! <br>
+Please  <td class="p"><a href="/Public/Membership/Membership_Home.aspx">Click here to register.</a></td> <br>
+and then mail your $50 US or CDN check to Intershack, P.O.Box 493, Montgomery Ctr, Vt 05471.<br><br>
+</span><br><br>-->
+
+<span class="p">
+We had our Welcome Cocktail Saturday November 30th at the Tram Haus bar. It was Jay’s opening weekend and we were gifted with some unexpected snow which made for great early winter skiing. 
+It was wonderful to greet old friends and make some new friends as we enter our 56th year of Intershack.<br><br>
+
+Laurie welcomed fellow Intershackers and provided an update on events and activities for the 2025/2025 season and Jamie Stenger provided the group with an update on Jay Peak resort. <br><br>
+</span>
+
+<span class="h24dblue">Intershack Golf Tournament - Sunday September 1, 2024</span><br><br>
+<span class="p">
+We kicked off the 2024-2025 year with our <span class="pblue">Annual Labor Day Golf Tournament</span>  at Jay Peak Resort.<br><br>
+The weather cooperated and the golfers had a great time.  <br><br>
+Cocktail hour was enjoyed by all! <br><br></span><br>
+
+<a href="Library/Photos/2024-2025/Golf/2024_09_01_Golf_Apres.jpg"><img border="1" src="Library/Photos/2024-2025/Golf/2024_09_01_Golf_Apres.jpg" WIDTH=302" HEIGHT="302"><span class="p"><br>
+
+<span class="h24dblue">Annual Jay Peak Tail Gate Party - Saturday April 27, 2024 Noon - Stateside Parking Lot<br></span><br>
+<!-- <a href="/Library/Photos/2023-2024/Tailgate/tailgate.png"><img border="1" src="/Library/Photos/2023-2024/Tailgate/tailgate.png" WIDTH="397" HEIGHT="278"><br>-->
+
+<a href="Library/Photos/2023-2024/Tailgate/Tailgate-1.jpg"><img border="1" src="Library/Photos/2023-2024/Tailgate/Tailgate-1.jpg" WIDTH=275" HEIGHT="206"><span class="p"><br>
+Thanks for being there - hope that you enjoyed the food/partying as much as we did!  </span> <br><br>
+<a href="Library/Photos/2023-2024/Tailgate/Tailgate-2.jpg"><img border="1" src="Library/Photos/2023-2024/Tailgate/Tailgate-2.jpg" WIDTH=206" HEIGHT="275">
+<a href="Library/Photos/2023-2024/Tailgate/Tailgate-3.jpg"><img border="1" src="Library/Photos/2023-2024/Tailgate/Tailgate-3.jpg" WIDTH=206" HEIGHT="275"><br><br>
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+
+<!--<span class="h24dblue">Passing of Jack Pepper <br>Sunday March 18, 2024 <br></span><br>
+<span class="p">
+We are sad to inform you that Jack passed away gently and with grace on his 95th birthday. A long time Intershacker and Jay Peak Ski Instructor, Jack was a true Bon Vivant and character, and loved by all.<br><br>
+We are all better for having known you Jack! Our condolences to his wife Marie Anne McGarr and family. <br><br>Click <a href="https://montrealgazette.remembering.ca/obituary/jack-pepper-1089481304">Here</a> to view his Obituary </span><br><br>-->
+
+<span class="h24dblue">41st George Syrovotka Race <br>Sunday March 24, 2024 - Lower Haynes <br></span><br>
+<a href="Library/Photos/2023-2024/Syrovotka%20Race/GeorgeSyrovatkaRace.jpg"><img border="1" src="Library/Photos/2023-2024/Syrovotka%20Race/GeorgeSyrovatkaRace.jpg" WIDTH="313" HEIGHT="403"><br>
+<span class="p">
+<span class="p">Thank you to all the participants and helping the fight against Leukemia.  </span> <br><br> 
+
+<!--
+<span class="h24dblue">Saint Patrick's Day Cocktail Party - Saturday March 16, 2024</span><br><br>
+<span class="p">
+The 2024 Intershack St. Patrick’s party, held at the Jay Peak golf clubhouse, was filled with fun, silly shenanigans and even a pot of gold.<br><br> Our chief organizing cailín, Elaine Thoms had prepared three activities.<br>
+An enthusiastic green hat toss game was won by Mona Rizk.<br> The Irish Quiz game contestants, Leigh Jaschke, Jim Townsend, and Helen Wienand fought one another (verbally) valiantly with their supporting partners until Jim finally walked away with the bottle of Irish whiskey.<br>
+Best Irish costumes were won by George Syrovatka, Mark Rabinovitch, and Peter Amsden. <br>
+A big thanks to Nelson and Jay Peak for delicious appetizers and to Ken our able barman who celebrated his birthday with us.<br><br>
+
+Lá fhéile Pádraig sona dhuit!</span>!!<br><br>
+<a href="/Library/Photos/2023-2024/St Pats/Men Best Dressed.jpg"><img border="1" src="/Library/Photos/2023-2024/St Pats/Men Best Dressed.jpg" WIDTH=240" HEIGHT="150">
+<a href="/Library/Photos/2023-2024/St Pats/Hat Toss.jpg"><img border="1" src="/Library/Photos/2023-2024/St Pats/Hat Toss.jpg" WIDTH=260" HEIGHT="216">
+<a href="/Library/Photos/2023-2024/St Pats/Quiz 1.jpg"><img border="1" src="/Library/Photos/2023-2024/St Pats/Quiz 1.jpg" WIDTH=403" HEIGHT="227">
+<a href="/Library/Photos/2023-2024/St Pats/Quiz 2.jpg"><img border="1" src="/Library/Photos/2023-2024/St Pats/Quiz 2.jpg" WIDTH=254" HEIGHT="212">
+
+</span><br><br>
+
+<span class="h24dblue">Intershack West Saint Patrick's Day Dinner Party - Thursday March 14, 2024</span><br><br>
+<span class="p">
+Well all those Shackers that have moved to Whistler had their St Pat's Party at the Alpine Cafe with about 60 friends! <br><br> Slainte from the West!<br><br>
+
+<a href="/Library/Photos/2023-2024/St Pats/2024 Intershack West St Pats.jpg"><img border="1" src="/Library/Photos/2023-2024/St Pats/2024 Intershack West St Pats.jpg" WIDTH=380" HEIGHT="186">
+
+</span><br><br>
+
+
+<br />
+
+-->
+<!--
+<span class="h24dblue">Valentine's Day Dinner - Saturday February 10, 2024</span><br><br>
+<span class="p">
+Our Valentine’s dinner party was held at the Inn in Montgomery Center on Saturday February 10th and was quite successful.  Everyone had a good time, enjoyed the food, the venue and most importantly the company.<br> <br>
+We were a total of 30 people and amid the cocktails and dining, we played a couple of Valentine themed games and awarded some gifts.
+Ginny won the necklace taboo game and Vicki won the Emoji Pictionary game. Another event made fun by Intershackers!<br>  <br>
+</span><br><br>
+
+<span class="h24dblue">Skating Party - Thursday December 28, 2023</span><br><br>
+<span class="p">
+The Intershack Skating party held on Dec. 28 was a big intergenerational success. Families came together and mixed with other families, old friends reconnected, and made new friends.
+Fifty-eight people attended with skaters aged three to seventy and a cheering section aged one to (whatever). A big thank you to the arena staff (Matt and Lynn) who provided necessary logistics for the event.
+Thanks to Laurie and Peter for organizing the event, and to all the volunteers who helped out – Leigh for children’s activities, Josh for music, the pizza fetchers and clean-up crew. <br><br>
+<a href="/Library/Photos/2023-2024/Skating Party/Skating Party 1.jpg"><img border="1" src="/Library/Photos/2023-2024/Skating Party/Skating Party 1.jpg" WIDTH="225" HEIGHT="298">
+<a href="/Library/Photos/2023-2024/Skating Party/Skating Party 2.jpg"><img border="1" src="/Library/Photos/2023-2024/Skating Party/Skating Party 2.jpg" WIDTH="225" HEIGHT="262">
+<a href="/Library/Photos/2023-2024/Skating Party/Skating Party 3.jpg"><img border="1" src="/Library/Photos/2023-2024/Skating Party/Skating Party 3.jpg" WIDTH="275" HEIGHT="207">
+<a href="/Library/Photos/2023-2024/Skating Party/Skating Party 4.jpg"><img border="1" src="/Library/Photos/2023-2024/Skating Party/Skating Party 4.jpg" WIDTH="275" HEIGHT="218">
+</span><br><br>
+
+
+<span class="h24dblue">Intershack Gives Back!</span><br><br>
+<span class="p">
+To help make Christmas brighter for less fortunate families in our local communities, Intershack has made donations to two local food banks. 
+The Montgomery Food Pantry and the Jay Area Food Shelf each received a cheque for $1,000. <br><br>
+Not only does your membership fee provide you with opportunities to participate in myriad social activities, and receive discounts for home-heating fuel through Intershack’s preferred rate program with Fred’s Energy, you can be proud of your contributions to those in need.<br><br>
+THANK YOU ALL FOR MAKING THIS POSSIBLE.  <br><br>
+Wishing everyone a very happy holiday season and all the best for 2024 <br>
+</span><br><br>
+
+<span class="h24dblue">President's Welcome Cocktail Party - Sat November 25, 2023<br></span><br>
+<span class="p">
+The welcome cocktail was a wonderful way to kick off the 2-23-2024 season! Thank you to all who attended and making it so much fun. It is always great to reconnect at Jay Peak.</span><br><br>
+
+<span class="h24dblue">Intershack Golf Tournament - Sunday September 3</span><br><br>
+<span class="p">
+A great time was had by all at our fall Golf Tournament. This year’s weather was a happy 
+contrast to last year when we were completely rained out. The sun shone, even a little hot at times, and the Jay Peak course was in excellent condition, especially the greens. <br><br>
+Jamie Stenger and crew did a super job of setting up the course’s requested challenges. The dinner put on by the Jay Peak Clubhouse Grill was declared delicious by all.<br><br>
+Winners: 
+Longest Drive Women:	Donna McLaughlin <br>
+Longest Drive Men: 		Bill Jackson<br>
+Longest Putt:			Kyle Aikin<br>
+Closest to the Pin Women:	Kelly Keays<br>
+Closest to the Pin Men: 	Peter Amsden<br>
+Raffle Winner:			Lee Heffernan<br><br>
+<a href="/Library/Photos/2023-2024/Golf Tourney/Foursome Lynda, Laurie, Lee, Donna.jpeg"><img border="1" src="/Library/Photos/2023-2024/Golf Tourney/Foursome Lynda, Laurie, Lee, Donna.jpeg" WIDTH=275" HEIGHT="206">
+<a href="/Library/Photos/2023-2024/Golf Tourney/Intershack Golf Fall 23.jpg"><img border="1" src="/Library/Photos/2023-2024/Golf Tourney/Intershack Golf Fall 23.jpg" WIDTH=275" HEIGHT="206">
+<a href="/Library/Photos/2023-2024/Golf Tourney/Longest Drive Donna & Bill.jpeg"><img border="1" src="/Library/Photos/2023-2024/Golf Tourney/Longest Drive Donna & Bill.jpeg" WIDTH=275" HEIGHT="206">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLongest Drive Winners!
+</span><br><br>
+
+
+
+<span class="h24dblue">Annual Jay Peak Tail Gate Party - Saturday April 22, 2023<br></span><br>
+<span class="p">Tailgating at Jay…always a fun way to spend an afternoon – eating great food and socializing with old friends and new friends.  </span> <br><br>
+<span class="p">We had a good turnout for our Italian themed Intershack Tailgate - with Iain and Marie even making it all the way from Whistler, BC.   </span> <br><br> 
+<span class="p">Many thanks to Claire and Mark for their contributions and efforts in hosting this event and thanks to all those also contributed food items to the delicious offerings. </span> <br><br> 
+<a href="/Library/Photos/2022-2023/Tailgate/Gang.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Gang.jpg" WIDTH=275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Tailgate/Lee and Jane.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Lee and Jane.jpg" WIDTH=275" HEIGHT="206"><br><br>
+<a href="/Library/Photos/2022-2023/Tailgate/Kim Leslie Laurie Judith.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Kim Leslie Laurie Judith.jpg" WIDTH=275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Tailgate/Mark Peter  George Mark.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Mark Peter  George Mark.jpg" WIDTH=275" HEIGHT="206"><br><br>
+<a href="/Library/Photos/2022-2023/Tailgate/Marie Chuck Lynda Reg.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Marie Chuck Lynda Reg.jpg" WIDTH=206" HEIGHT="275">
+<a href="/Library/Photos/2022-2023/Tailgate/Denis and Dessert.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Denis and Dessert.jpg" WIDTH=206" HEIGHT="275"><br><br>
+<a href="/Library/Photos/2022-2023/Tailgate/Dave.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Dave.jpg" WIDTH=275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Tailgate/Crystal and Bill.jpg"><img border="1" src="/Library/Photos/2022-2023/Tailgate/Crystal and Bill.jpg" WIDTH=275" HEIGHT="206"><br><br>
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+<span class="h24dblue">Intershack GS and 40th George Syrovotka Race <br>Saturday March 25, 2023 - Lower Haynes <br></span><br>
+<a href="/Library/Photos/2022-2023/Syrovotka_Race/George Race Poster and Info.png"><img border="1" src="/Library/Photos/2022-2023/Syrovotka_Race/George Race Poster and Info.png" WIDTH="313" HEIGHT="403"><br>
+<br>
+<span class="p">Thank you to all the participants and helping the fight against Leukemia.  </span> <br><br> 
+
+<span class="h24dblue">St. Patrick's Day - Saturday March 18, 2023<br> at Omakase Restaurant<br></span><br>
+<span class="p">This year, we hosted our Saint Patrick’s cocktail at Omakase Restaurant and we had a really good turnout. <br><br>
+Irish music, leprechaun names, costumes, games and tasty snacks made for a fun event for new friends and old friends. 
+The contestants, Jim, Laurie and Alan showed off their Irish knowledge and all won prizes for their efforts and all Intershackers showed off their green and shared lots of laughs. </span> <br><br>
+
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+<a href="/Library/Photos/2022-2023/St Pats Cocktail/Balloons & Sign.jpg"><img border="1" src="/Library/Photos/2022-2023/St Pats Cocktail/Balloons & Sign.jpg" WIDTH="240" HEIGHT="180">
+<a href="/Library/Photos/2022-2023/St Pats Cocktail/Contest.jpg"><img border="1" src="/Library/Photos/2022-2023/St Pats Cocktail/Contest.jpg" WIDTH="240" HEIGHT="180">
+<a href="/Library/Photos/2022-2023/St Pats Cocktail/Bar crowd.jpg"><img border="1" src="/Library/Photos/2022-2023/St Pats Cocktail/Bar crowd.jpg" WIDTH="240" HEIGHT="190">
+<a href="/Library/Photos/2022-2023/St Pats Cocktail/Ladies.jpg"><img border="1" src="/Library/Photos/2022-2023/St Pats Cocktail/Ladies.jpg" WIDTH="240" HEIGHT="190">
+<a href="/Library/Photos/2022-2023/St Pats Cocktail/David & Fiona.jpg"><img border="1" src="/Library/Photos/2022-2023/St Pats Cocktail/David & Fiona.jpg" WIDTH="180" HEIGHT="240">
+
+<br/>
+
+<span class="h24dblue">Valentine's Day Event - Saturday February 4, 2023<br> at the Black Lantern Inn<br></span><br>
+<span class="p">Intershackers are a hardy bunch! <br><br>
+The ski hill had been closed for its second day due to the extreme cold temperatures and wind chills but the cold didn’t stop us from coming to the Black Lantern Inn for an early Valentine party. 
+We were about 40 participants –enjoying the delicious 4 course buffet, fun games, and warm company. </span> <br><br>
+<span class="p">The Valentine Trivia game was both challenging and fun- both in answering the questions and then correcting the other team responses.
+ The team led by Lissy & Claire were the winners. The off-limits game required a tie-breaker round – where everyone wanted to provide inputs! In the end, Helen won the top prize. </span><br><br>
+<span class="p">It was a fun evening and great to be back with friends in the historic Montgomery Inn.</span><br><br>
+
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+<a href="/Library/Photos/2022-2023/Valentines_Day/Bill, Judith, Crystal, Fiona.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Bill, Judith, Crystal, Fiona.jpg" WIDTH="275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Valentines_Day/Bob, Mark, Anne, Donna.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Bob, Mark, Anne, Donna.jpg" WIDTH="275" HEIGHT="206"><br>
+<a href="/Library/Photos/2022-2023/Valentines_Day/Ginny, Cathy, Jane.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Ginny, Cathy, Jane.jpg" WIDTH="275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Valentines_Day/Laurie & Peter.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Laurie & Peter.jpg" WIDTH="275" HEIGHT="206"><br>
+<a href="/Library/Photos/2022-2023/Valentines_Day/Mark & claire.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Mark & claire.jpg" WIDTH="275" HEIGHT="206">
+<a href="/Library/Photos/2022-2023/Valentines_Day/Table action_1.jpg"><img border="1" src="/Library/Photos/2022-2023/Valentines_Day/Table action_1.jpg" WIDTH="275" HEIGHT="206"><br>
+<br/>
+
+<span class="h24dblue">Jay Peak 50% Day Ski Tickets</span><br><br>
+<span class="p">Jay Peak Resort is welcoming Intershack members for the 2022-2023 ski season. As in previous years, they are providing Intershack members with the benefit of two 50% vouchers for ski lift tickets. <br><br>
+
+Members are requested to present themselves in person at the <span class="p16b">Tramside Customer Services </span> to redeem their tickets (note that you can do this in advance).  <br><br>
+Customer Services has been provided with the Intershack Membership List for this purpose. <br><br>
+Please note that these tickets are valid Sunday-Friday (not on Saturdays) <br>
+and they are <span class="p16b">not valid </span>during these holiday periods: <br>December 24-January 1, 2023 and February 18-26th, 2023. </span><br><br>
+
+<span class="h24dblue">Welcome Cocktail Party - Saturday November 26, 2022<br></span><br>
+<span class="p">
+After 3 long years, we’re back with another full season of Intershack! We had a good turnout for the Welcome Cocktail, a great way to launch the season.
+The event was held at the Clubhouse Grill. Intershack provided the drinks and Jay Peak Resort provided the appetizers and everyone provided the good company and vibes.<br><br>
+Committee members were introduced and upcoming events were presented- including what will be George Syrovotka's 40 th downhill race on March 25, 2023.
+Steve Wright, General Manager presented a very informative update on Jay Peak Resort and its acquisition by Pacific Group Resorts.<br><br>
+We recruited a couple of new volunteers (huge thanks) and continue to seek new members for our committee as well as suggestions for future events.</span><br><br>
+
+<span class="pblue">Click on Photos for larger images.</span> <br><br>
+<a href="/Library/Photos/2022-2023/Pres Cocktail/1-SWright.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/1-SWright.jpg" WIDTH="275" HEIGHT="185">
+<a href="/Library/Photos/2022-2023/Pres Cocktail/1A-Crowd.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/1A-Crowd.jpg" WIDTH="275" HEIGHT="185"><br>
+<a href="/Library/Photos/2022-2023/Pres Cocktail/2-Jim-Crowd.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/2-Jim-Crowd.jpg" WIDTH="275" HEIGHT="210">
+<a href="/Library/Photos/2022-2023/Pres Cocktail/2A-Crowd.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/2A-Crowd.jpg" WIDTH="275" HEIGHT="210"><br>
+<a href="/Library/Photos/2022-2023/Pres Cocktail/3-RegisterTable.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/3-RegisterTable.jpg" WIDTH="205" HEIGHT="275">
+<a href="/Library/Photos/2022-2023/Pres Cocktail/3A-Crowd.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/3A-Crowd.jpg" WIDTH="205" HEIGHT="275"><br>
+<a href="/Library/Photos/2022-2023/Pres Cocktail/4-Booth.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/4-Booth.jpg" WIDTH="205" HEIGHT="275">
+<a href="/Library/Photos/2022-2023/Pres Cocktail/4A-Booth-CLL.jpg"><img border="1" src="/Library/Photos/2022-2023/Pres Cocktail/4A-Booth-CLL.jpg" WIDTH="275" HEIGHT="205"><br>
+<br/>
+
+
+<span class="h24dblue">Seeking New Committee Members<br> - Can You Contribute A Little of Your Time?</span><br><br>
+<span class="p">
+Our Intershack Committee is seeking new members as some of our long standing and outstanding committee members are leaving.  <br>  <br>
+There are several roles to fill and you can look at the sidebar on the left for the committee positions. <br>  <br>
+This is a fun group, and the time commitments are reasonable. <br>  <br>
+Please let us know if you are interested – you can reach out to Laurie or Chuck for more information by emailing them at intershackgroup@gmail.com.   <br>  <br>
+</span>
+
+
+<span class="h24dblue">Intershack Golf Tournament Fogged Out<br> Sunday September 4, 2022</span><br><br>
+<span class="p">
+In spite of Chuck's excellent organizing with the support of Jamie Stenger, Jay Peak Golf Director, bad weather won out. <br>  <br>
+Incessant heavy fog and rain caused the Intershack Golf Tournament's cancellation. <br>  <br>
+Undaunted, Intershackers went on to have an excellent cocktail and dinner at the Clubhouse. Although no official prizes were awarded, it was decided that longest drive went to Charlie Morrill, who drove in from Maine for the event 
+and second went to Bill and Maureen Jackson, who drove in from New Jersey. <br><br>
+Shortest drive went to those who rumbled up the hill from Alpine Haven. <br>  <br>
+Hopefully, our next tournament will have better luck with the weather.   <br><br></span>
+<br><br>
+Click on Photos for larger images. <br><br>
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf1.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf1.jpeg" WIDTH=275" HEIGHT="215">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf2.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf2.jpeg" WIDTH=275" HEIGHT="215">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf3.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf3.jpeg" WIDTH=275" HEIGHT="215">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf6.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf6.jpeg" WIDTH=275" HEIGHT="215">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf8.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf8.jpeg" WIDTH=215" HEIGHT="275">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf4.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf4.jpeg" WIDTH=215" HEIGHT="275">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf7.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf7.jpeg" WIDTH=275" HEIGHT="215">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf9.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf9.jpeg" WIDTH=275" HEIGHT="250">
+<a href="/Library/Photos/2022-2023/Golf_Tourney/Golf5.jpeg"><img border="1" src="/Library/Photos/2022-2023/Golf_Tourney/Golf5.jpeg" WIDTH=196" HEIGHT="275">
+<br><br>
+-->
+<span class="h24dblue">Intershack's 50th Anniversary Celebration <br> - Labour Day Weekend 2019 - Truly Epic!</span><br><br>
+<span class="p">
+The 3 day Intershack celebration was, well, lets say it again, truly epic.<br><br>
+Not going to write a lot of words to descibe it - the 200+ that were there know what it was. <br><br>
+So many great friends, memories and good times were made and shared.  <br><br>
+Hopefully everyone will keep in touch! </span><br><br>
+
+<span class="pblue">If you have't received the email sharing photos from the event, email intershack50th@gmail.com to get on the list!<br><br> </span> <br>
+<a href="Library/Photos/2018-2019/50th_Reunion/50th_Welcome_Poster.jpg"><img border="1" src="Library/Photos/2018-2019/50th_Reunion/50th_Welcome_Poster.jpg" WIDTH="150" HEIGHT="225">
+<a href="Library/Photos/2018-2019/50th_Reunion/Intershack%2050th%20Group%20Photo.jpg"><img border="1" src="Library/Photos/2018-2019/50th_Reunion/Intershack%2050th%20Group%20Photo.jpg" WIDTH="405" HEIGHT="270"><br>
+<br/>
+<span class="h18dburg">Click <a href="https://vimeo.com/357245629/bbe5684122">HERE</a> to view the Intershack 50th Group Video (produced by <a href="https://vimeo.com/bbp">Black Box Productions Ltd.)</a> on <a href="https://vimeo.com">Vimeo.</a></span>
+<br>
+<br>
+
+<span class="h24dblue">25th Fall Golf Classic at Jay Peak Golf Course</span><br><br>
+<span class="p">Intershack's 25th Annual Fall golf tournament and dinner was held as part of the 50th weekend. Almost 100 shackers turned out on a beautiful day for some good competition. <br />
+It was a great day and evening and a fitting conclusion to the 50th weekend.</br><br>
+Congratulations to this year's winners - especially Leslie Syrovotka and Kate Bradley who won 1/2 season ski passes for 2019-2020 !</span><br><br>
+<table style="table-layout: fixed; width: 550px;">
+<tr>
+    <td class="thead" style="width:150px;">Award</td>
+    <td class="p11red" style="width:4px;"></td>
+    <td class="thead" style="width: 300px;">Winners</td>
+</tr>
+<!-- <tr>
+    <td class="tbody" valign="top">Low Gross - Intershacker</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Reg Barrett<br>Women - Lorraine Leduc</td>
+</tr> -->
+<tr>
+    <td class="tbody" valign="top">Low Gross</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Gary Griffiths<br>Women - Lorraine Leduc</td>
+</tr>
+<tr>
+    <td class="tbody" valign="top">Low Net - Intershacker</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Guy Quesnel<br>Women - Lynda Fraser</td>
+</tr>
+<!-- <tr>
+    <td class="tbody" valign="top">Low Net - Overall</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Jamie Thomson<br>Women - Christine Tully</td>
+</tr>-->
+
+<tr>
+    <td class="tbody" valign="top">Longest Drive</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Tomas Syrovotka<br>Women - Louise Aiken</td>
+</tr>
+<tr>
+    <td class="tbody" valign="top">Closest to the Pin</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - John Cheffins<br>Women - Paddi Griffiths</td>
+</tr>
+<tr>
+    <td class="tbody" valign="top">Best Putter</td>
+    <td class="p11red"></td>
+    <td class="tbody">Men&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - Palu Toppi<br>Women - Christine Tully</td>
+</tr>
+</table>
+<br>
+<a href="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Getting_Instructions.jpg"><img border="1" src="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Getting_Instructions.jpg" WIDTH="240" HEIGHT="180">
+<a href="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Guy_Winner.jpg"><img border="1" src="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Guy_Winner.jpg" WIDTH="150" HEIGHT="200">
+<a href="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Lynda_Winner.jpg"><img border="1" src="Library/Photos/2018-2019/50th_Reunion/25th_Golf_Lynda_Winner.jpg" WIDTH="150" HEIGHT="200">
+</br></br>
+
+
+
+
+</div> 
+<div class="col3">
+<span class="h18dburg">Intershack is on Facebook&nbsp;&nbsp;</span><br>
+<table border="0" cellpadding="2" cellspacing="1" width="200">
+<tr>
+  <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Please like us on Facebook.</td>
+</tr>
+<tr>
+  <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">IntershackJayPeakVT</td>
+</tr>
+</table>
+<br /><br />
+<span class="h18dburg">Membership Signup&nbsp;&nbsp;</span><br><br>
+<table border="0" cellpadding="2" cellspacing="1" width="200">
+<!--<tr>
+  <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">The Registration for 2023-2024 has closed.</td>
+</tr> -->
+<!--  <tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Choose Download Form and Mail under Membership in the Menu.</td>
+  </tr> -->
+<!-- <tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Please check back on the web site at a later date.</td>
+ </tr> -->
+  <!--
+<tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Online registration is currently not available.</td>
+ </tr> -->
+ <!-- <a href="/Public/Membership/Membership_Home.aspx">Click here to register.</a> -->
+ <tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p"><a href="Public/Membership/Membership_Home.aspx.html">Click here to register.</a></td>
+  </tr>
+</table>
+<br /><br />
+<span class="h18dburg">Upcoming Events </span><br><br>
+<!-- <span class="pblue">See Events Calendar on Menu Bar for more Information.&nbsp;&nbsp;</span><br><br> -->
+<table border="0" cellpadding="2" cellspacing="1" width="200">
+<!--<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">February - March 2025:<br> Cross-Country Ski or Snowshoe Event.<br> Jay Peak</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">March, 2025:<br> Downhill Ski Race.<br>Jay Peak</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">April 26, 2025:<br> Tailgate Party.<br> Stateside Parking Lot</td>
+</tr>-->
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Sunday August 31, 2025:<br> Annual Golf Tournament.<br>Jay Peak <td>
+</tr>
+</table>
+<br><br>
+
+<span class="h18dburg">Past Events&nbsp;&nbsp;</span><br><br>
+<table border="0" cellpadding="2" cellspacing="1" width="200">
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">April 26, 2025:<br> Tailgate Party.<br> Stateside Parking Lot</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">March 15, 2025:<br> St. Patrick's Day Cocktail Party.<br> Haynes Room - Jay Peak Hotel</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Saturday February 8th 2025:<br>Valentine’s dinner/party.<br>  Inn in Montgomery Center</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Friday December 27th 2024:<br>Skating & Pizza Party.<br>Jay Peak</td>
+</tr> 
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">November 30, 2024:<br> Welcome Cocktail Party.<br> Tram Bar, Jay Peak</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">September 1, 2024:<br> Intershack Fall Golf Classic.<br> Jay Peak</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">April 27 2024:<br> Tailgate Party.<br> Stateside Parking Lot</td>
+</tr>
+<tr>
+<td class="pblue" valign="top">&#9658;</td>
+ <td class="p">March 24, 2024:<br> George Syrovotka 41st Ski/Snowboard Race.<br> Jay Peak</td>
+</tr>
+<tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Aug 30 - Sep 1, 2019:<br> 50th Anniversary Celebration.<br> Jay Peak</td>
+</tr>
+<tr>
+ <td class="pblue" valign="top">&#9658;</td>
+ <td class="p">Sun Sept 1 2019:<br> 25th Fall Golf Classic. <br>Jay Peak Golf Course.</td>
+</tr>
+</table>
+
+<br /><br />
+
+</div>
+</div>
+<div id="footer">
+<div class="wrap">
+<table width="1000" cellspacing="2" cellpadding="2" class="backgroundbot">
+<tr>
+ <td align="center"><span class="bottomft">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intershack&nbsp;&nbsp;|&nbsp;&nbsp;A Jay Peak Area Sports & Social Group&nbsp;&nbsp;|&nbsp;&nbsp;
+www.intershack.com&nbsp;&nbsp;</span><br /><span class="bottomftSm">Monday, August 25, 2025 9:26:07 PM</span></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

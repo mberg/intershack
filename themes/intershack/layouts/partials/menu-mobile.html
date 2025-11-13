@@ -1,0 +1,26 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <div class="space-y-2">
+    {{- range . }}
+      {{- if not .Parent }}
+        {{- $hasChildren := .HasChildren }}
+        <div>
+          <a href="{{ .URL }}" class="block px-4 py-2 text-gray-700 hover:bg-intershack-light hover:text-intershack-blue rounded {{ if or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }}bg-intershack-light text-intershack-blue{{ end }}">
+            {{ .Name }}
+          </a>
+          {{- if $hasChildren }}
+            <div class="ml-4 mt-2 space-y-1">
+              {{- range .Children }}
+                <a href="{{ .URL }}" class="block px-4 py-2 text-sm text-gray-600 hover:bg-intershack-light hover:text-intershack-blue rounded">
+                  {{ .Name }}
+                </a>
+              {{- end }}
+            </div>
+          {{- end }}
+        </div>
+      {{- end }}
+    {{- end }}
+  </div>
+{{- end }}

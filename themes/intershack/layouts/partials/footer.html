@@ -1,0 +1,73 @@
+<!-- Footer -->
+<footer class="bg-intershack-blue text-white mt-16">
+  <div class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- About -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">About Intershack</h3>
+        <p class="text-sm text-gray-300">
+          Montreal-based Jay Peak skiing, golf and social group celebrating over 56 years of mountain community.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/membership/" class="text-gray-300 hover:text-white">Membership</a></li>
+          <li><a href="/events/" class="text-gray-300 hover:text-white">Events</a></li>
+          <li><a href="/about/history/" class="text-gray-300 hover:text-white">Our History</a></li>
+          <li><a href="/gallery/" class="text-gray-300 hover:text-white">Photo Gallery</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Contact</h3>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li>Email: {{ site.Params.email }}</li>
+          <li>{{ site.Params.address }}</li>
+          <li class="pt-2">
+            <a href="https://www.facebook.com/{{ site.Params.facebook }}" target="_blank" class="text-gray-300 hover:text-white">
+              Facebook: @{{ site.Params.facebook }}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Weather & Conditions -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Jay Peak Info</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="https://www.accuweather.com/en/us/north-troy-vt/05859/weather-forecast/341216" target="_blank" class="text-gray-300 hover:text-white">
+              Jay Peak Weather
+            </a>
+          </li>
+          <li>
+            <a href="https://www.jaypeakresort.com/skiing-riding/the-mountain/conditions-weather" target="_blank" class="text-gray-300 hover:text-white">
+              Snow Conditions
+            </a>
+          </li>
+          <li>
+            <a href="https://www.jaypeakresort.com" target="_blank" class="text-gray-300 hover:text-white">
+              Jay Peak Resort
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-intershack-light mt-8 pt-8 text-center text-sm text-gray-300">
+      <p>&copy; {{ now.Year }} Intershack. All rights reserved. | A Jay Peak Area Sports & Social Group</p>
+      <p class="mt-2">Website updated: {{ now.Format "Monday, January 2, 2006 3:04:05 PM" }}</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile Menu Script -->
+<script>
+  document.getElementById('mobile-menu-button')?.addEventListener('click', function() {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+</script>

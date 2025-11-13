@@ -1,0 +1,134 @@
+baseURL = 'https://intershack.com/'
+languageCode = 'en-us'
+title = 'Intershack - Jay Peak Vermont Skiing & Social Group'
+theme = 'intershack'
+
+# Enable Git info for last modified dates
+enableGitInfo = false
+
+[params]
+  description = "Montreal-based Jay Peak skiing, golf and social group celebrating over 56 years of mountain community"
+  keywords = "Jay Peak, skiing group, North Troy, Jay, Montgomery, Vermont, Montreal, Montrealers, ski club"
+  author = "Intershack"
+  images = ["/images/jay-peak-hero.jpg"]
+  
+  # Contact Information
+  email = "intershackgroup@gmail.com"
+  address = "P.O. Box 493, Montgomery Center, VT 05471"
+  
+  # Social Media
+  facebook = "IntershackJayPeakVT"
+  
+  # Google Analytics
+  googleAnalytics = "UA-1390129-2"
+  
+  # Features
+  showReadTime = false
+  showDate = true
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+    hasChildren = true
+    
+  [[menu.main]]
+    parent = "About"
+    name = "History"
+    url = "/about/history/"
+    weight = 1
+    
+  [[menu.main]]
+    parent = "About"
+    name = "Committee"
+    url = "/about/committee/"
+    weight = 2
+    
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 3
+    hasChildren = true
+    
+  [[menu.main]]
+    parent = "Events"
+    name = "Golf"
+    url = "/events/golf/"
+    weight = 1
+    
+  [[menu.main]]
+    parent = "Events"
+    name = "Skiing"
+    url = "/events/skiing/"
+    weight = 2
+    
+  [[menu.main]]
+    parent = "Events"
+    name = "Social"
+    url = "/events/social/"
+    weight = 3
+    
+  [[menu.main]]
+    name = "Membership"
+    url = "/membership/"
+    weight = 4
+    
+  [[menu.main]]
+    name = "Member Services"
+    url = "/services/"
+    weight = 5
+    hasChildren = true
+    
+  [[menu.main]]
+    parent = "Member Services"
+    name = "Fred's Energy Propane"
+    url = "/services/freds-energy/"
+    weight = 1
+    
+  [[menu.main]]
+    parent = "Member Services"
+    name = "Merchant Discounts"
+    url = "/services/discounts/"
+    weight = 2
+    
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 6
+    
+  [[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 7
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  year = "years"
+  event = "events"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-1390129-2"
