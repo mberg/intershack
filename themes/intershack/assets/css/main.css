@@ -142,4 +142,9 @@
   .prose h2:first-child {
     @apply mt-0;
   }
+
+  /* Iframe styles for full width embedding */
+  .prose iframe {
+    @apply w-full max-w-none;
+  }
 }
