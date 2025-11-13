@@ -1,7 +1,6 @@
 ---
 title: "Golf Events"
 description: "Annual golf tournament and golf-related activities at Jay Peak"
-draft: true
 ---
 
 ## Annual Golf Tournament - September 3, 2023
