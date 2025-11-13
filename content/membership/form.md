@@ -8,4 +8,4 @@ weight: 1
 
 Please fill out the form below to join or renew your Intershack membership.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSescxO7iVAjU_olWET0_AIYmJ-nr6CRGIpKIItl6099NRH6pg/viewform?embedded=true" width="640" height="1086" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSescxO7iVAjU_olWET0_AIYmJ-nr6CRGIpKIItl6099NRH6pg/viewform?embedded=true" width="100%" height="1086" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
