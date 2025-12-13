@@ -13,13 +13,12 @@ Join our community of skiing and golf enthusiasts! Intershack membership provide
 - Holiday skating parties and social events
 - St. Patrick's Day celebrations
 - Valentine's Day dinners
-- George Syrovatka Ski Race
 - Jay Peak Tailgate parties
 
 ### Member Services
 - **Fred's Energy Propane Program**: Exclusive discounts on home heating propane
-- **Merchant Partner Discounts**: Special rates from local businesses
-- **Jay Peak Benefits**: Historical relationship with Jay Peak Resort
+- **50% Lift Ticket Discount**: Half-price lift tickets at Jay Peak
+- **Late Season Pass Option**: Access to late-date season pass discount
 
 ### Community
 - Connect with like-minded outdoor enthusiasts
@@ -42,7 +41,7 @@ Join our community of skiing and golf enthusiasts! Intershack membership provide
 3. **Questions?**: Email [intershackgroup@gmail.com](mailto:intershackgroup@gmail.com) for assistance
 
 ### Membership Year
-Our membership year runs from November to November, coinciding with the ski season.
+The Intershack membership year runs from May 1st to April 30th.
 
 ## Questions?
 

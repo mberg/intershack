@@ -58,6 +58,14 @@ We are looking for volunteers to help on the Committee. Email us at [intershackg
   </div>
 </div>
 
+<div class="card">
+  <div class="card-body text-center">
+    <img src="/images/committee/matt-berg.jpg" alt="Matt Berg" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+    <h3 class="text-xl font-semibold mb-2">Matt Berg</h3>
+    <p class="text-gray-600">Website</p>
+  </div>
+</div>
+
 </div>
 
 ## Get Involved

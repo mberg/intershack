@@ -4,6 +4,8 @@ eventDate: 2025-11-29
 location: "Tower Bar"
 description: "Join us for our Welcome Cocktail"
 weight: 1
+build:
+  list: never
 ---
 
 The Intershack Welcome Cocktail will be held at the Tower Bar on Saturday November 29, from 4:00-6:00.

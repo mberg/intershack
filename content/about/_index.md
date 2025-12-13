@@ -20,7 +20,8 @@ As an Intershack member, you'll enjoy:
 
 - Access to exclusive events and gatherings
 - Discounted rates through our Fred's Energy propane program
-- Merchant partner discounts
+- 50% lift ticket discount at Jay Peak
+- Late-date season pass option
 - A welcoming community of like-minded outdoor enthusiasts
 - Over five decades of tradition and camaraderie
 

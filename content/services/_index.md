@@ -10,9 +10,12 @@ As an Intershack member, you have access to exclusive discounts and services tha
 ### [Fred's Energy Propane Program](/services/freds-energy/)
 Exclusive discounts on home heating propane through our partnership with Fred's Energy.
 
-### [Merchant Partner Discounts](/services/discounts/)
-Special rates and discounts from local businesses and service providers.
+### 50% Lift Ticket Discount
+Intershack members receive 50% off lift tickets at Jay Peak Resort.
+
+### Late Season Pass Option
+Members have access to a late-date season pass discount at Jay Peak.
 
 ---
 
-These member benefits help offset your annual membership fee while supporting local businesses that support our community.
+These member benefits help offset your annual membership fee.
