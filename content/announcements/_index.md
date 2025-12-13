@@ -3,15 +3,15 @@ title: "Announcements"
 description: "Latest announcements and important information for Intershack members"
 ---
 
-## Intershack Welcome Cocktail - November 29
+## Skating & Pizza Party - December 27
 
-The Intershack Welcome Cocktail will be held at the Tower Bar on **Saturday November 29, from 4:00-6:00 PM**.
+Join us for our Skating & Pizza Party at the Jay Peak Ice Arena on **Saturday December 27, from 4:00-6:00 PM**.
 
-It is an opportunity to connect with old friends and meet new friends and hear about upcoming Intershack events.
+Holiday fun for the whole family with skating and pizza!
 
-**Please let us know by Friday November 14th** if you will be joining us so we can plan the food accordingly.
+**Please RSVP by December 15th** so we can plan accordingly.
 
-We look forward to seeing you at this event and future events throughout the season and here's hoping to a repeat of the 2024/2025 winter snow!
+We look forward to seeing you there!
 
 ---
 
