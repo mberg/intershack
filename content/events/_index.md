@@ -5,13 +5,11 @@ description: "Year-round events and activities for Intershack members"
 
 ## 2025-2026 Events
 
-### Skating & Pizza Party
-**Saturday, December 27, 2025**
-**Time:** 4:00 PM - 6:00 PM
-**RSVP by December 15th**
-
-### Valentine's Dinner
-TBA
+### ❤️ Valentine's Day Dinner
+**Saturday, February 7, 2026**
+**Location:** The Inn (Montgomery Center)
+**Cocktails:** 6:00 PM | **Dinner:** 7:00 PM
+RSVP to [Laurie.holdron@gmail.com](mailto:Laurie.holdron@gmail.com)
 
 ### St. Patrick's Event
 TBA
