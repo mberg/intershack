@@ -3,15 +3,19 @@ title: "Announcements"
 description: "Latest announcements and important information for Intershack members"
 ---
 
-## Skating & Pizza Party - December 27
+## ❤️ Valentine's Day Dinner - February 7
 
-Join us for our Skating & Pizza Party at the Jay Peak Ice Arena on **Saturday December 27, from 4:00-6:00 PM**.
+Join us for an early Valentine's celebration dinner with Intershack friends and guests!
 
-Holiday fun for the whole family with skating and pizza!
+**Saturday, February 7, 2026 at The Inn (Montgomery Center)**
 
-**Please RSVP by December 15th** so we can plan accordingly.
+- **Cocktails:** 6:00 PM | **Dinner:** 7:00 PM
+- **Menu:** Beef Bourguignon, Chicken Saltimbocca, or Blackened Salmon
+- **Cost:** Intershack Member $45 | Guest $60 (excluding drinks, tax, and tip)
 
-We look forward to seeing you there!
+**Capacity is limited** — RSVP ASAP to [Laurie.holdron@gmail.com](mailto:Laurie.holdron@gmail.com) with your meal selection.
+
+Looking forward to seeing you!
 
 ---
 
