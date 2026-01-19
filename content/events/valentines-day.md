@@ -32,7 +32,7 @@ Please indicate your meal selection when you RSVP:
 
 ## RSVP
 
-**Capacity is limited** — please reply ASAP to [Laurie.holdron@gmail.com](mailto:Laurie.holdron@gmail.com) to confirm your spot.
+**Capacity is limited** — please reply ASAP to [Laurie.Intershack@pm.me](mailto:Laurie.Intershack@pm.me) to confirm your spot.
 
 Include your meal selection with your RSVP.
 
