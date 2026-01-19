@@ -13,7 +13,7 @@ Join us for an early Valentine's celebration dinner with Intershack friends and 
 - **Menu:** Beef Bourguignon, Chicken Saltimbocca, or Blackened Salmon
 - **Cost:** Intershack Member $45 | Guest $60 (excluding drinks, tax, and tip)
 
-**Capacity is limited** — RSVP ASAP to [Laurie.holdron@gmail.com](mailto:Laurie.holdron@gmail.com) with your meal selection.
+**Capacity is limited** — RSVP ASAP to [Laurie.Intershack@pm.me](mailto:Laurie.Intershack@pm.me) with your meal selection.
 
 Looking forward to seeing you!
 

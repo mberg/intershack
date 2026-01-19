@@ -9,7 +9,7 @@ description: "Year-round events and activities for Intershack members"
 **Saturday, February 7, 2026**
 **Location:** The Inn (Montgomery Center)
 **Cocktails:** 6:00 PM | **Dinner:** 7:00 PM
-RSVP to [Laurie.holdron@gmail.com](mailto:Laurie.holdron@gmail.com)
+RSVP to [Laurie.Intershack@pm.me](mailto:Laurie.Intershack@pm.me)
 
 ### St. Patrick's Event
 TBA
