@@ -130,9 +130,9 @@
     @apply text-intershack-dark;
   }
 
-  /* Announcement styles */
+  /* Announcement section dividers */
   .prose hr {
-    @apply hidden;
+    @apply my-8 border-0 border-t-2 border-intershack-sage;
   }
 
   .prose h2 {
