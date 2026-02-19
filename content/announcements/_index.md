@@ -5,6 +5,8 @@ description: "Latest announcements and important information for Intershack memb
 
 ## 🍀 St. Patrick's Day Party - March 14
 
+<img src="/images/events/st-patricks-day-poster.png" alt="Intershack St. Pat's Party — Saturday, March 14, 2026 at Jay Village Inn, Cocktails 3:00-5:30 PM" class="rounded-lg shadow-md mx-auto my-6 max-w-lg w-full">
+
 Join us for a St. Patrick's Day celebration with Intershack friends and guests!
 
 **Saturday, March 14, 2026 at Jay Village Inn** — New Location! Across from the Jay Country Store
