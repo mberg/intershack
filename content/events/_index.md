@@ -11,8 +11,11 @@ description: "Year-round events and activities for Intershack members"
 **Cocktails:** 6:00 PM | **Dinner:** 7:00 PM
 RSVP to [Laurie.Intershack@pm.me](mailto:Laurie.Intershack@pm.me)
 
-### St. Patrick's Event
-TBA
+### 🍀 St. Patrick's Day Party
+**Saturday, March 14, 2026**
+**Location:** Jay Village Inn (New Location! Across from the Jay Country Store)
+**Cocktails:** 3:00 - 5:30 PM | Contests, Prizes & Fun for all ages
+RSVP to [Laurie.Intershack@pm.me](mailto:Laurie.Intershack@pm.me)
 
 ### Tailgate
 TBA
