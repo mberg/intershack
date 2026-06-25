@@ -3,7 +3,7 @@ title: "Announcements"
 description: "Latest announcements and important information for Intershack members"
 ---
 
-## 🏈 Tailgate - Saturday, April 25th
+## ⛷️ Tailgate - Saturday, April 25th
 
 Thanks Mark and Claire for another successful tailgate party enjoyed by all!
 
