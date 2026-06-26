@@ -1,6 +1,6 @@
 ---
 title: "The Unvarnished History of Intershack"
-description: "The unvarnished history of Intershack - over 56 years of mountain community"
+description: "The unvarnished history of Intershack - over 57 years of mountain community"
 weight: 2
 ---
 
@@ -24,4 +24,4 @@ From those humble beginnings in 1968, Intershack has grown and evolved while mai
 
 ## Today's Intershack
 
-Today, Intershack continues the tradition established over 56 years ago, organizing events throughout the year and maintaining our special relationship with Jay Peak Resort. We've expanded beyond just skiing to include golf tournaments, social gatherings, and community service activities, all while preserving the spirit of fun and camaraderie that our founders envisioned.
+Today, Intershack continues the tradition established over 57 years ago, organizing events throughout the year and maintaining our special relationship with Jay Peak Resort. We've expanded beyond just skiing to include golf tournaments, social gatherings, and community service activities, all while preserving the spirit of fun and camaraderie that our founders envisioned.
