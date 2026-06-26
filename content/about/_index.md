@@ -1,9 +1,9 @@
 ---
 title: "About Intershack"
-description: "Learn about our 56+ year history and the committee members who make it all happen"
+description: "Learn about our 57+ year history and the committee members who make it all happen"
 ---
 
-Welcome to Intershack, Montreal's premier Jay Peak skiing, golf and social group. For over 56 years, we've been bringing together outdoor enthusiasts who share a passion for the mountains and community.
+Welcome to Intershack, Montreal's premier Jay Peak skiing, golf and social group. For over 57 years, we've been bringing together outdoor enthusiasts who share a passion for the mountains and community.
 
 ## What We Do
 

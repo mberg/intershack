@@ -3,7 +3,7 @@ title: "Membership"
 description: "Join Intershack and become part of our Jay Peak community"
 ---
 
-Join our community of skiing and golf enthusiasts! Intershack membership provides access to year-round events, exclusive discounts, and a welcoming community that has been making memories at Jay Peak for over 56 years.
+Join our community of skiing and golf enthusiasts! Intershack membership provides access to year-round events, exclusive discounts, and a welcoming community that has been making memories at Jay Peak for over 57 years.
 
 ## Membership Benefits
 
@@ -17,13 +17,11 @@ Join our community of skiing and golf enthusiasts! Intershack membership provide
 
 ### Member Services
 - **Fred's Energy Propane Program**: Exclusive discounts on home heating propane
-- **50% Lift Ticket Discount**: Half-price lift tickets at Jay Peak
-- **Late Season Pass Option**: Access to late-date season pass discount
 
 ### Community
 - Connect with like-minded outdoor enthusiasts
 - Multi-generational community of families and individuals
-- Over 56 years of tradition and mountain memories
+- Over 57 years of tradition and mountain memories
 - Social network spanning Montreal and Vermont
 
 ## How to Join
