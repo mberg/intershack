@@ -3,6 +3,8 @@ title: "Valentine's Day Dinner"
 description: "Early Valentine's celebration dinner with Intershack friends and guests"
 eventDate: 2026-02-07
 location: "The Inn (Montgomery Center)"
+build:
+  list: never
 ---
 
 Come join us for an early Valentine's celebration dinner with Intershack friends and guests! ❤️

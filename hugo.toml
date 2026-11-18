@@ -80,6 +80,12 @@ enableGitInfo = false
     weight = 1
     
   [[menu.main]]
+    parent = "About"
+    name = "Donations"
+    url = "/donations/"
+    weight = 3
+
+  [[menu.main]]
     name = "Gallery"
     url = "/gallery/"
     weight = 6
