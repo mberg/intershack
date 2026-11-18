@@ -3,6 +3,8 @@ title: "St. Patrick's Day Party"
 description: "St. Patrick's Day celebration with cocktails, contests, prizes, and fun for all ages"
 eventDate: 2026-03-14
 location: "Jay Village Inn"
+build:
+  list: never
 ---
 
 Join us for a St. Patrick's Day celebration with Intershack friends and guests! 🍀
