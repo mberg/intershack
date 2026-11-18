@@ -20,9 +20,9 @@ It's time to renew your Intershack membership for 2026-2027! Please visit the [M
 
 Intershack donations help the Jay Area Food Shelf and the Montgomery Heart Full Kitchen feed people in our community. The Heart Full Kitchen says the latest donation "pays for 6 weeks of feeding people!!!"
 
-<div class="flex flex-col md:flex-row justify-center items-center gap-6 not-prose my-6">
-  <img src="/images/donations/jay-area-food-shelf.jpg" alt="Volunteers at the Jay Area Food Shelf" class="w-full md:w-auto md:h-80 rounded-lg shadow-md">
-  <img src="/images/donations/montgomery-heart-full-kitchen.jpg" alt="Fresh produce at the Montgomery Heart Full Kitchen" class="w-full md:w-auto md:h-80 rounded-lg shadow-md">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose my-6">
+  <img src="/images/donations/jay-area-food-shelf.jpg" alt="Volunteers at the Jay Area Food Shelf" class="w-full h-96 object-cover object-top rounded-lg shadow-md">
+  <img src="/images/donations/montgomery-heart-full-kitchen.jpg" alt="Fresh produce at the Montgomery Heart Full Kitchen" class="w-full h-96 object-cover rounded-lg shadow-md">
 </div>
 
 [Read the thank-you notes](/donations/)
