@@ -11,8 +11,13 @@ It's time to renew your Intershack membership for 2026-2027! Please visit the [M
 
 ## Upcoming Events
 
-- **Saturday, November 28, 4:00 - 6:00 PM** — Welcome Party, Tower Bar
-- **Monday, December 28, 4:00 - 6:00 PM** — Skating and Pizza Party, Indoor Hockey Arena
+**Welcome Party**  
+Saturday, November 28, 4:00 - 6:00 PM  
+Tower Bar
+
+**Skating and Pizza Party**  
+Monday, December 28, 4:00 - 6:00 PM  
+Indoor Hockey Arena
 
 ---
 
